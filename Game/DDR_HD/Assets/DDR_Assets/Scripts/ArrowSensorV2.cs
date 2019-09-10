@@ -213,26 +213,6 @@ public class ArrowSensorV2 : MonoBehaviour
 
     }
 
-    /*private void OnTriggerExit(Collider other)
-    {
-        print("current: " + currentLongFallingArrow.name);
-        print("first: " + currentEnteredArrows[0].arrowObject.name);
-        print("second: " + currentEnteredArrows[1].arrowObject.name);
-
-        if (other.gameObject == currentLongFallingArrow)
-        {
-            currentLongFallingArrow.inSensor = false;
-            currentLongFallingArrow.isCurrentlyPressed = false;
-            currentLongFallingArrow = null;
-            DeleteFirstLongArrow();
-        }
-
-        print("current: " + currentLongFallingArrow.name);
-        print("first: " + currentEnteredArrows[0].arrowObject.name);
-        print("second: " + currentEnteredArrows[1].arrowObject.name);
-    }*/
-
-
 
     private void OnTriggerEnter(Collider other)
     {

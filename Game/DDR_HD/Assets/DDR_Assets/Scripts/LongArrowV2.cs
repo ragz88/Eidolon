@@ -27,9 +27,8 @@ public class LongArrowV2 : MonoBehaviour
     float arrowLength;                                  // distance between the 2 arrow caps     
     float maxBarWidth = 1;                              // width of our bar
 
-    //float headFillSpeed = 2;                            // fill final position of bar at this speed
-
-    public int numPointsToRemove = 2;                 // number of points to delete from positions to ensure the bar doesn't stick out from bottom.
+    
+    //public int numPointsToRemove = 2;                 // number of points to delete from positions to ensure the bar doesn't stick out from bottom.
 
     bool pressedInPreviousFrame = false;                // records whether the correct button was pressed in the previous frame, preventing skipping due to speed.
     float previousY = 0;                                // used in conjunction with above bool for investigating skipping due to translate speed
@@ -39,9 +38,6 @@ public class LongArrowV2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //positions = new Vector3[numDivisions - numPointsToRemove]; 
-        //hitArray = new bool[numDivisions - numPointsToRemove];
-
         positions = new Vector3[numDivisions];
         hitArray = new bool[numDivisions];
 
@@ -52,26 +48,15 @@ public class LongArrowV2 : MonoBehaviour
         {
             hitArray[i] = false;                                                        // initialise array to false
             positions[i] = new Vector3(0,0, (arrowLength/numDivisions)*i);              // set the equi-distant positions
-            widthCurve.AddKey((animCurveMax/(numDivisions))*i,0);   // initialise widths as 0 along bar's entire length
+            widthCurve.AddKey((animCurveMax/(numDivisions))*i,0);                       // initialise widths as 0 along bar's entire length
         }
-
-        /*for (int i = 0; i < numDivisions - numPointsToRemove; i++)
-        {
-            hitArray[i] = false;                                                        // initialise array to false
-            positions[i] = new Vector3(0,0, (arrowLength/numDivisions)*i);              // set the equi-distant positions
-            widthCurve.AddKey((animCurveMax/(numDivisions - numPointsToRemove))*i,0);   // initialise widths as 0 along bar's entire length
-        }
-
-        numDivisions -= 2;*/
-
-        //positions[positions.Length - 1] = new Vector3(0,0, positions[positions.Length - 1].z - (0.05f * arrowLength));  // reduces line bottom point to prevent it from sticking out
 
         bar.positionCount = numDivisions;                                               // update size of our bar's position array
         bar.SetPositions(positions);
         bar.widthCurve = widthCurve;
     }
 
-    /*8private void FixedUpdate()
+    /*private void FixedUpdate()
     {
         previousY = transform.position.y;
         transform.Translate(0, -fallSpeed * Time.fixedDeltaTime, 0);       //move the arrow downward;
@@ -100,7 +85,7 @@ public class LongArrowV2 : MonoBehaviour
                 }
             }
 
-            if (isCurrentlyPressed /*&& currentIndex != 0*/)
+            if (isCurrentlyPressed )
             {
                 
                 hitArray[currentIndex] = true;
