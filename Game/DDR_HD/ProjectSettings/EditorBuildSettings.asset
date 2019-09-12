@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/samplescene.unity
     guid: cbfe36cfddfde964d9dfce63a355d5dd
   - enabled: 1
+    path: Assets/DDR_Assets/Scenes/Opening Scene.unity
+    guid: d47f3d893356bcf448bb52d04fb926fa
+  - enabled: 1
     path: Assets/DDR_Assets/Scenes/DDR_InitTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/DDR_Assets/Scenes/End Scene.unity
+    guid: b4d1a44a83fa17544af14b5e97c764cc
   m_configObjects: {}

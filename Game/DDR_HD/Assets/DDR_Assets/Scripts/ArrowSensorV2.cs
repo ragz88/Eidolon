@@ -46,6 +46,9 @@ public class ArrowSensorV2 : MonoBehaviour
 
     public int endLongArrowLiniency = 2;
 
+    public ParticleSystem longArrowParticles;    // Particles that show when a long arrow is being hit
+    public DDRScoreManager scoreManager;
+
 
     //End Public Variables -----------------------------------------------------------------------------------------
 
@@ -82,6 +85,8 @@ public class ArrowSensorV2 : MonoBehaviour
         sensorSettings = GetComponentInParent<GeneralSensorSettings>();       // finds our settings from the scene
 
         missArrowAfterPerfect = sensorSettings.missAfterPerfect;
+
+        StopLongArrowParticles();                                             // hides the particles for long arrow feedbacks
     }
 
     // Update is called once per frame
@@ -120,31 +125,36 @@ public class ArrowSensorV2 : MonoBehaviour
 
                     if (absRelativeDistance <= sensorSettings.perfectDistance)     //Perfect Hit!
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Perfect);
+                        //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Perfect);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Perfect);
                         DeleteFirstArrow();
                         Instantiate(standardPartsPrefab);
                     }
                     else if ((absRelativeDistance <= sensorSettings.greatDistance) && (relativeDistance >= -missDistance))  //Great Hit.
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Great);
+                        //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Great);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Great);
                         DeleteFirstArrow();
                         Instantiate(standardPartsPrefab);
                     }
                     else if ((absRelativeDistance <= sensorSettings.goodDistance) && (relativeDistance >= -missDistance))  //Good Hit.
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Good);
+                        //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Good);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Good);
                         DeleteFirstArrow();
                         Instantiate(standardPartsPrefab);
                     }
                     else if ((absRelativeDistance <= sensorSettings.almostDistance) && (relativeDistance >= -missDistance))  //Almost Hit.
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Almost);
+                        //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Almost);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Almost);
                         DeleteFirstArrow();
                         Instantiate(standardPartsPrefab);
                     }
                     else if (relativeDistance < -missDistance)  //Miss
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Miss);
+                        //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Miss);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Miss);
                         DeleteFirstArrow();
                     }
                 }
@@ -158,7 +168,7 @@ public class ArrowSensorV2 : MonoBehaviour
 
                     if (relativeDistance < -missDistance)  //Miss                                              
                     {
-                        sensorSettings.DisplayHitQuality(GeneralSensorSettings.ScoreQuality.Miss);
+                        scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Miss);
                         DeleteFirstArrow();
                     }
 
@@ -180,16 +190,46 @@ public class ArrowSensorV2 : MonoBehaviour
 
                 if (currentLongFallingArrow.topArrow.position.y < transform.position.y)         // this marks the point when the long arrow can no longer score
                 {
+                    StopLongArrowParticles();
+                    
                     // this is a final check to ensure the last point in the bar isn't missed due to framerate issues
                     if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
                     {
                        currentLongFallingArrow.setFinalPoints(endLongArrowLiniency);      // sets the last few points in the bar to true if the button is still depresseds
                     }
 
+                    // analyse hit quality by how much of arrow was hit
+                    float longArrowScore = ExtractLongArrowScore();
+
+                    // magic numbers to be repaired
+                    if (longArrowScore >= 0.9f)     //Perfect Hit!
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Perfect);
+                    }
+                    else if (longArrowScore >= 0.75f && longArrowScore < 0.9f)  //Great Hit.
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Great);
+                    }
+                    else if (longArrowScore >= 0.5f && longArrowScore < 0.75f)  //Good Hit.
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Good);
+                    }
+                    else if (longArrowScore >= 0.15f && longArrowScore < 0.5f)  //Almost Hit.
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
+                    }
+                    else if (longArrowScore < 0.15f)  //Miss
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Miss);
+                    }
+
+
+                    // reset arrow's sensor information and remove our reference to it
                     currentLongFallingArrow.inSensor = false;
                     currentLongFallingArrow.isCurrentlyPressed = false;
                     currentLongFallingArrow = null;
                     DeleteFirstLongArrow();
+
                 }
                 else                                                                            // Arrow still in sensor
                 {
@@ -199,6 +239,7 @@ public class ArrowSensorV2 : MonoBehaviour
                     if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
                     {
                         currentLongFallingArrow.isCurrentlyPressed = true;
+                        //PlayLongArrowParticles();                                          still requires tweaking
                     }
                     else
                     {
@@ -278,9 +319,30 @@ public class ArrowSensorV2 : MonoBehaviour
         
     }
 
+
+    //Examines arrow to see percentage of it that was hit.
+    float ExtractLongArrowScore()
+    {
+        float percentageHit = 0;
+
+        for (int i = 0; i < currentLongFallingArrow.hitArray.Length; i++)
+        {
+            //print(currentLongFallingArrow.hitArray[i]);
+            if (currentLongFallingArrow.hitArray[i] == true)
+            {
+                percentageHit += (1f / currentLongFallingArrow.hitArray.Length);
+            }
+            /*print("Lenght: " + currentLongFallingArrow.hitArray.Length);
+            print("Value: " + (1f / currentLongFallingArrow.hitArray.Length));
+            print(1/24);*/
+        }
+
+        return percentageHit;
+    }
+    
     // This removes the first arrow in the array if it's a long arrow and shifts all the remaining arrows over - leaving no empty space
     void DeleteFirstLongArrow()
-    {
+    {   
         // Shifts every object in array 1 space left.
         // Note: this automatically removes obscelete values in the first element of array.
         for (int i = 0; i < currentEnteredArrows.Length - 1; i++)
@@ -297,6 +359,28 @@ public class ArrowSensorV2 : MonoBehaviour
         arrow.arrowObject = null;
         arrow.entryTime = 0;
         arrow.objectID = 0;
+    }
+
+    // to be implemented in next iteration
+    void PlayLongArrowParticles()
+    {
+        if (!longArrowParticles.gameObject.activeInHierarchy)
+        {
+            longArrowParticles.gameObject.SetActive(true);
+            longArrowParticles.Play();
+        }
+        
+    }
+
+    void StopLongArrowParticles()
+    {
+        longArrowParticles.Pause();
+        longArrowParticles.gameObject.SetActive(false);
+    }
+
+    void SpawnScoreText()
+    {
+
     }
 
 }

@@ -8,6 +8,8 @@ public class ArrowSensor : MonoBehaviour
 
     public Animation sensorPulse;
 
+    public DDRScoreManager scoreMan;
+
     GeneralSensorSettings settings;
 
     GameObject collidingArrow;
@@ -31,8 +33,8 @@ public class ArrowSensor : MonoBehaviour
         {
             if ((currentArrow.transform.position.y - transform.position.y) < -settings.greatDistance && settings.missAfterPerfect)  //at this point, player can no longer capture this arrow in classic mode (miss after perfect mode)
             {
-                settings.keyWordText.text = settings.missString;
-                settings.keyWordText.color = settings.missColour;
+                scoreMan.keyWordText.text = scoreMan.missString;
+                scoreMan.keyWordText.color = scoreMan.missColour;
                 //change layer/colour etc of missed arrow
                 // double speed and respawn it - like super crate box
 
@@ -41,8 +43,8 @@ public class ArrowSensor : MonoBehaviour
             }
             else if ((currentArrow.transform.position.y - transform.position.y) < -settings.almostDistance)  //at this point, player can no longer capture this arrow in std mode in the simple mode
             {
-                settings.keyWordText.text = settings.missString;
-                settings.keyWordText.color = settings.missColour;
+                scoreMan.keyWordText.text = scoreMan.missString;
+                scoreMan.keyWordText.color = scoreMan.missColour;
                 //change layer/colour etc of missed arrow
                 // double speed and respawn it - like super crate box
 
@@ -163,8 +165,8 @@ public class ArrowSensor : MonoBehaviour
 
     void missedScore()
     {
-        settings.keyWordText.text = settings.missString;
-        settings.keyWordText.color = settings.missColour;
+        scoreMan.keyWordText.text = scoreMan.missString;
+        scoreMan.keyWordText.color = scoreMan.missColour;
     }
 
     void emptyPressScore()
@@ -174,26 +176,26 @@ public class ArrowSensor : MonoBehaviour
 
     void almostScore()
     {
-        settings.keyWordText.text = settings.almostString;
-        settings.keyWordText.color = settings.almostColour;
+        scoreMan.keyWordText.text = scoreMan.almostString;
+        scoreMan.keyWordText.color = scoreMan.almostColour;
     }
 
     void goodScore()
     {
-        settings.keyWordText.text = settings.goodString;
-        settings.keyWordText.color = settings.goodColour;
+        scoreMan.keyWordText.text = scoreMan.goodString;
+        scoreMan.keyWordText.color = scoreMan.goodColour;
     }
 
     void greatScore()
     {
-        settings.keyWordText.text = settings.greatString;
-        settings.keyWordText.color = settings.greatColour;
+        scoreMan.keyWordText.text = scoreMan.greatString;
+        scoreMan.keyWordText.color = scoreMan.greatColour;
     }
 
     void perfectScore()
     {
-        settings.keyWordText.text = settings.perfectString;
-        settings.keyWordText.color = settings.perfectColour;
+        scoreMan.keyWordText.text = scoreMan.perfectString;
+        scoreMan.keyWordText.color = scoreMan.perfectColour;
     }
 
     void pulseSensor()

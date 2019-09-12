@@ -33,6 +33,8 @@ public class LongArrowV2 : MonoBehaviour
     bool pressedInPreviousFrame = false;                // records whether the correct button was pressed in the previous frame, preventing skipping due to speed.
     float previousY = 0;                                // used in conjunction with above bool for investigating skipping due to translate speed
 
+    //[HideInInspector] public float arrowValue = 0;      // this value is a percentage displaying how much of the arrow was hit.
+
 
 
     // Start is called before the first frame update
@@ -102,6 +104,8 @@ public class LongArrowV2 : MonoBehaviour
                     widthCurve.AddKey(newKey);
                 }
 
+                // NOTE: The following code block is working, but will only be implemented if playtesting reveals it to be necessary (to improve performance).
+
                 // this further smoothes the curve by examine the button press in the previous frame - preventing skipping due to speed.
                 // in this case, the correct button was pressed in the previous frame, but some positions were still left false
                 // this is due to the arrow moving too quickly for the framerate to keep up with
@@ -150,15 +154,11 @@ public class LongArrowV2 : MonoBehaviour
     public void setFinalPoints (int numPoints)
     {
         for (int i = 0; i < numPoints; i++)
-        {
-            print("Total points: " + numDivisions);
-            print("hit array num: " + ((hitArray.Length - 1) - i));
-            print("curve num: " + (numDivisions - (widthCurve.length) + i));
+        { 
 
             hitArray[(hitArray.Length - 1) - i] = true;
             widthCurve.RemoveKey(i);
             Keyframe newKey = new Keyframe(i * (animCurveMax / numDivisions), maxBarWidth, 0, 0);
-            print("New Key time: " + newKey.time + " and it's width: " + newKey.value);
             widthCurve.AddKey(newKey);
         }
     }

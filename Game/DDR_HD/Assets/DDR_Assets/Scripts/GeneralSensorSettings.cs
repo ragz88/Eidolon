@@ -10,7 +10,7 @@ public class GeneralSensorSettings : MonoBehaviour
     // used to store values that apply to all 4 sensors - 
     // easing process of balancing and ensuring consistency
 
-    public enum ScoreQuality
+    public enum HitQuality
     {
         Perfect,
         Great,
@@ -19,7 +19,6 @@ public class GeneralSensorSettings : MonoBehaviour
         Miss
     }
 
-    public Text keyWordText;                    // text at the centre of the screen
     public bool missAfterPerfect = false;       // if true, all arrows past the perfect mark are already missed
     
 
@@ -30,20 +29,6 @@ public class GeneralSensorSettings : MonoBehaviour
     public float goodDistance = 0.15f;
     public float almostDistance = 0.2f;
     public Color missFlashColour;
-
-    // Words to be shown depending on timing of press
-    // and their colours
-    [Header("Key Words")]
-    public string perfectString = "Perfect!";
-    public Color perfectColour;
-    public string greatString = "Great!";
-    public Color greatColour;
-    public string goodString = "Good";
-    public Color goodColour;
-    public string almostString = "Almost";
-    public Color almostColour;
-    public string missString = "BOO!";
-    public Color missColour;
 
     private void Start()
     {
@@ -87,36 +72,5 @@ public class GeneralSensorSettings : MonoBehaviour
         keyWordText.text = missString;
         keyWordText.color = missColour;
     } */
-
-    public void DisplayHitQuality(ScoreQuality scoreType)
-    {
-        switch(scoreType)
-        {
-            case ScoreQuality.Perfect:
-                keyWordText.text = perfectString;
-                keyWordText.color = perfectColour;
-                break;
-
-            case ScoreQuality.Great:
-                keyWordText.text = greatString;
-                keyWordText.color = greatColour;
-                break;
-
-            case ScoreQuality.Good:
-                keyWordText.text = goodString;
-                keyWordText.color = goodColour;
-                break;
-
-            case ScoreQuality.Almost:
-                keyWordText.text = almostString;
-                keyWordText.color = almostColour;
-                break;
-
-            case ScoreQuality.Miss:
-                keyWordText.text = missString;
-                keyWordText.color = missColour;
-                break;
-        }
-    }
 
 }
