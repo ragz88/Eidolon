@@ -294,4 +294,9 @@ public class DDRScoreManager : MonoBehaviour
         perfectColour = perfect;
     }
 
+    public void StoreHighScore()
+    {
+
+    }
+
 }
