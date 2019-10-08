@@ -42,6 +42,8 @@ public class SceneChange : MonoBehaviour
 
     public Animator[] heartAnims;
 
+    bool clarenceActivated = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -126,9 +128,10 @@ public class SceneChange : MonoBehaviour
                 }
 
                 // here we allow Clarence to move again, when the bars are nearly done moving
-                if (i == 0 && (botBars[i].position.y - finalBotYValues[i]) < 0.1f)
+                if (i == 0 && (botBars[i].position.y - finalBotYValues[i]) < 0.1f && !clarenceActivated)
                 {
                     clarence.enabled = true;
+                    clarenceActivated = true;
                 }
 
             }
