@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ClarenceMovement : MonoBehaviour
 {
@@ -33,6 +34,10 @@ public class ClarenceMovement : MonoBehaviour
 
     public BoxCollider2D stabilisingCollider;
 
+    public SceneChange sceneChanger;
+    public CinemachineVirtualCamera virtualCam;
+
+    bool lifeLost = false;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +46,8 @@ public class ClarenceMovement : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         charCollider = GetComponent<CapsuleCollider2D>();
+
+        ClarenceGameController.instance.CheckLife();
     }
 
     // Update is called once per frame
@@ -73,8 +80,8 @@ public class ClarenceMovement : MonoBehaviour
 
             for (int i = -1; i < 2; i++)
             {
-                RaycastHit2D rayHit = Physics2D.Raycast((new Vector2((transform.position.x + (i * charCollider.size.x)), transform.position.y) - new Vector2(0, charCollider.size.y)), -Vector2.up, rayLength, mask);
-                Debug.DrawRay((new Vector2(transform.position.x + (i * charCollider.size.x), transform.position.y) - new Vector2(0, charCollider.size.y)), -Vector2.up * rayLength, Color.red);
+                RaycastHit2D rayHit = Physics2D.Raycast((new Vector2((transform.position.x + (i * charCollider.size.x)), transform.position.y) - new Vector2(0, charCollider.size.y*2)), -Vector2.up, rayLength, mask);
+                Debug.DrawRay((new Vector2(transform.position.x + (i * charCollider.size.x), transform.position.y) - new Vector2(0, charCollider.size.y*2)), -Vector2.up * rayLength, Color.red);
 
                 if (rayHit.collider != null)
                 {
@@ -123,7 +130,7 @@ public class ClarenceMovement : MonoBehaviour
                 rb.velocity = rb.velocity + new Vector2(0, jumpSpeed);
             }
         }
-        else
+        /*else
         {
             if (respawnTimer > respawnTime)
             {
@@ -143,7 +150,7 @@ public class ClarenceMovement : MonoBehaviour
             {
                 respawnTimer += Time.deltaTime;
             }
-        }
+        }*/
     }
 
     public void LoseLife()
@@ -160,7 +167,25 @@ public class ClarenceMovement : MonoBehaviour
         stabilisingCollider.enabled = false;
         charCollider.enabled = false;
 
-        respawnTimer = 0;
+        //respawnTimer = 0;
         rb.velocity = new Vector2(0, jumpSpeed);
+
+        virtualCam.Follow = null;
+
+        if (lifeLost == false)
+        {
+            ClarenceGameController.instance.LoseLife();
+            lifeLost = true;
+        }
+
+        if (ClarenceGameController.health <= 0)
+        {
+            sceneChanger.GameOver();
+        }
+        else
+        {
+            sceneChanger.RestartScene();
+        }
+        
     }
 }
