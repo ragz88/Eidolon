@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb21688001b5742f7abd5598850fc1a9, type: 3}
+  m_Name: Footstep Properties
+  m_EditorClassIdentifier: 
+  properties:
+  - physicMaterial: {fileID: 13400000, guid: 72fb2be97b9c444cfba8ce6d1f2d2c8c, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 285d19c6e013ecf4ab4a1648ae08106b, type: 3}
+    - {fileID: 8300000, guid: 95bb726b292baa94e83b23b01b672060, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: 6228bf5af600749afb4001760973e8a3, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 2ecab5cbd53402145bb296f2cd180638, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: e0d9caebdaf4b4e09a92a2a3446b93a9, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 18f1ff003e8fbdb44aba8266f6e1d168, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: 8d601696ba4874de8a0eefb742aa457c, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: efddc54b96f8d2a40beb8c6a1a90e1b3, type: 3}
+    - {fileID: 8300000, guid: 8e338bc0b70cd1f4f8b637c0c818e357, type: 3}
+    - {fileID: 8300000, guid: 7ba4f3e4fdf4f604da11767d5526acdb, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: 77d87076db5ac48449805bee71c9f7ca, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 3b6b6556483b1b8449b2cafb891f7db2, type: 3}
+    - {fileID: 8300000, guid: b48a4f133fa22c845b77b7eba566eebb, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: 508f699c0b7f342c68b9e88ebab6f3a3, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 59cd085e234f32e4daddd2e589174a96, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
+  - physicMaterial: {fileID: 13400000, guid: 6889c57c71f814362981cd4b456c76a3, type: 2}
+    texture: {fileID: 0}
+    stepSounds:
+    - {fileID: 8300000, guid: 2f96d3d47551ed848be9307342dcd667, type: 3}
+    jumpSounds:
+    - {fileID: 8300000, guid: 9b48cacd301364109ac5f743db652b82, type: 3}
+    landSounds:
+    - {fileID: 8300000, guid: 117d9047a245d4e01bf20e2cb44ac619, type: 3}
