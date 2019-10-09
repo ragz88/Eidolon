@@ -18,6 +18,9 @@ public class SceneChange : MonoBehaviour
     public Transform[] topBars;
     public Transform[] botBars;
 
+    public Transform[] topBarsEnd;
+    public Transform[] botBarsEnd;
+
     public float delayBetweenBars = 0.2f; // pause between individual bars
     public float barSpeed = 2f;           // how fast bars close and open
 
@@ -244,6 +247,7 @@ public class SceneChange : MonoBehaviour
     public void GameOver()
     {
         sceneToLoad = GameOverSceneNumber;
+        ClarenceGameController.health = 3;
         shutterState = ShutterState.Closing;
     }
 
