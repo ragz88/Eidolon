@@ -20,16 +20,7 @@ public class DeathTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-
             other.gameObject.GetComponent<ClarenceMovement>().LoseLife();
-
-
-            WalkingFireActivator walkingActivator = gameObject.GetComponentInParent<WalkingFireActivator>();
-
-            if (walkingActivator != null)
-            {
-                walkingActivator.RemoveActiveFlames();
-            }
         }
     }
 }
