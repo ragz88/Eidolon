@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class JumpArea : MonoBehaviour
 {
+    //public ClarenceMovement
+
     // Start is called before the first frame update
     void Start()
     {
