@@ -39,6 +39,8 @@ public class ClarenceMovement : MonoBehaviour
 
     bool lifeLost = false;
 
+    bool lockMovement = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,7 +57,15 @@ public class ClarenceMovement : MonoBehaviour
     {
         if (!losingLife)
         {
-            float movement = Input.GetAxis(movementAxis) * movementSpeed + horizontalSpeedAdjustment;
+            float movement = 0;
+
+
+            // prevents movement when in text areas
+            if (!lockMovement)
+            {
+                movement = Input.GetAxis(movementAxis) * movementSpeed + horizontalSpeedAdjustment;
+            }
+                
 
             // move charracter
             rb.velocity = new Vector2(movement, rb.velocity.y);
@@ -125,7 +135,7 @@ public class ClarenceMovement : MonoBehaviour
             }
 
 
-            if (Input.GetButtonDown("Jump") && grounded)
+            if (Input.GetButtonDown("Jump") && grounded && !lockMovement)
             {
                 rb.velocity = rb.velocity + new Vector2(0, jumpSpeed);
             }
@@ -187,5 +197,10 @@ public class ClarenceMovement : MonoBehaviour
             sceneChanger.RestartScene();
         }
         
+    }
+
+    public void SetLockMovement(bool setting)
+    {
+        lockMovement = setting;
     }
 }

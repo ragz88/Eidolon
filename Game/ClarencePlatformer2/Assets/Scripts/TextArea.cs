@@ -12,6 +12,7 @@ public class TextArea : MonoBehaviour
         public Text textComponent;
         //public Color textColour;
         public float textDelay;
+        public bool jumpPause;
     }
 
     public ConversationPoint[] convoPoints;
@@ -23,6 +24,8 @@ public class TextArea : MonoBehaviour
     //BoxCollider2D boxCollider;
     PhysicsMaterial2D initPhysicsMat;
     public PhysicsMaterial2D highFriction;
+
+    public MichelleWindController chelleWindControl;
 
 
     int currentConvoPoint = 0;
@@ -36,6 +39,7 @@ public class TextArea : MonoBehaviour
     bool fadingMessage = false;
     public float fadeSpeed = 1f;
 
+    public bool shouldStartChelle = false;
 
 
     // Start is called before the first frame update
@@ -80,32 +84,47 @@ public class TextArea : MonoBehaviour
                 }
                 else
                 {
-                    if (!fadingMessage && (/*Input.GetMouseButtonDown(0)*/ Input.anyKeyDown || Input.GetButtonDown("ProgressText")))
+                    if (!convoPoints[currentConvoPoint].jumpPause)
                     {
-                        fadingMessage = true;
-                    }
-
-                    if (fadingMessage)
-                    {
-                        convoPoints[currentConvoPoint].textComponent.color = new Color(convoPoints[currentConvoPoint].textComponent.color.r,
-                            convoPoints[currentConvoPoint].textComponent.color.g, convoPoints[currentConvoPoint].textComponent.color.b,
-                            convoPoints[currentConvoPoint].textComponent.color.a - (fadeSpeed * Time.deltaTime));
-
-                        if (convoPoints[currentConvoPoint].textComponent.color.a <= 0)
+                        if (!fadingMessage && (/*Input.GetMouseButtonDown(0)*/ Input.anyKeyDown || Input.GetButtonDown("ProgressText")))
                         {
-                            fadingMessage = false;
-                            fullMessageDisplayed = false;
-                            convoPoints[currentConvoPoint].textComponent.text = "";
-                            convoPoints[currentConvoPoint].textComponent.color = new Color(convoPoints[currentConvoPoint].textComponent.color.r,
-                                convoPoints[currentConvoPoint].textComponent.color.g, convoPoints[currentConvoPoint].textComponent.color.b, 1);
+                            fadingMessage = true;
+                        }
 
-                            //move to next sentence in conversation
-                            currentConvoPoint++;
-                            if (currentConvoPoint >= convoPoints.Length)  // all sentences played already
+                        if (fadingMessage)
+                        {
+                            convoPoints[currentConvoPoint].textComponent.color = new Color(convoPoints[currentConvoPoint].textComponent.color.r,
+                                convoPoints[currentConvoPoint].textComponent.color.g, convoPoints[currentConvoPoint].textComponent.color.b,
+                                convoPoints[currentConvoPoint].textComponent.color.a - (fadeSpeed * Time.deltaTime));
+
+                            if (convoPoints[currentConvoPoint].textComponent.color.a <= 0)
                             {
-                                convoPlayed = true;
+                                fadingMessage = false;
+                                fullMessageDisplayed = false;
+                                convoPoints[currentConvoPoint].textComponent.text = "";
+                                convoPoints[currentConvoPoint].textComponent.color = new Color(convoPoints[currentConvoPoint].textComponent.color.r,
+                                    convoPoints[currentConvoPoint].textComponent.color.g, convoPoints[currentConvoPoint].textComponent.color.b, 1);
+
+                                //move to next sentence in conversation
+                                currentConvoPoint++;
+                                if (currentConvoPoint >= convoPoints.Length)  // all sentences played already
+                                {
+                                    convoPlayed = true;
+                                }
+                                timeStamp = Time.time;
                             }
-                            timeStamp = Time.time;
+                        }
+                    }
+                    else
+                    {
+                        if (Input.GetButtonDown("FakeJumpTut"))
+                        {
+                            convoPoints[currentConvoPoint].jumpPause = false;
+                            clarenceMovement.gameObject.GetComponent<Rigidbody2D>().velocity = 
+                                clarenceMovement.gameObject.GetComponent<Rigidbody2D>().velocity + new Vector2(0, clarenceMovement.jumpSpeed);
+
+
+                            fadingMessage = true;
                         }
                     }
                 }
@@ -130,22 +149,43 @@ public class TextArea : MonoBehaviour
 
     void FreezePlayer()
     {
-        clarenceMovement.enabled = false;
-        clarenceAnim.SetBool("jumping", false);
+        //clarenceMovement.enabled = false;
+
+        clarenceMovement.SetLockMovement(true);
+
+        /*clarenceAnim.SetBool("jumping", false);
         clarenceAnim.SetBool("falling", false);
-        clarenceAnim.SetBool("walking", false);
+        clarenceAnim.SetBool("walking", false);*/
         clarenceRB.sharedMaterial = highFriction;
         capCollider.sharedMaterial = highFriction;
+
+        if (chelleWindControl != null)
+        {
+            chelleWindControl.SetPauseChelle(true);
+        }
     }
 
     void UnfreezePlayer()
     {
-        clarenceMovement.enabled = true;
-        clarenceAnim.SetBool("jumping", false);
+        //clarenceMovement.enabled = true;
+
+        clarenceMovement.SetLockMovement(false);
+
+        /*clarenceAnim.SetBool("jumping", false);
         clarenceAnim.SetBool("falling", false);
-        clarenceAnim.SetBool("walking", false);
+        clarenceAnim.SetBool("walking", false);*/
         clarenceRB.sharedMaterial = initPhysicsMat;
         capCollider.sharedMaterial = initPhysicsMat;
+
+        if (chelleWindControl != null)
+        {
+            chelleWindControl.SetPauseChelle(false);
+        }
+
+        if (shouldStartChelle)
+        {
+            chelleWindControl.StartChelleMovement();
+        }
     }
 
 
