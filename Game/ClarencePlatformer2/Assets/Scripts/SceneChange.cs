@@ -18,8 +18,8 @@ public class SceneChange : MonoBehaviour
     public Transform[] topBars;
     public Transform[] botBars;
 
-    public Transform[] topBarsEnd;
-    public Transform[] botBarsEnd;
+    //public Transform[] topBarsEnd;
+    //public Transform[] botBarsEnd;
 
     public float delayBetweenBars = 0.2f; // pause between individual bars
     public float barSpeed = 2f;           // how fast bars close and open
@@ -31,6 +31,13 @@ public class SceneChange : MonoBehaviour
 
     float[] initBotYValues;               // closed y value for bottom bars
     float[] finalBotYValues;              // open y values for bottom bars
+
+
+    /*float[] initEndTopYValues;               // closed y value for top bars
+    float[] finalEndTopYValues;              // open y values for top bars
+
+    float[] initEndBotYValues;               // closed y value for bottom bars
+    float[] finalEndBotYValues;        */      // open y values for bottom bars
 
     float currentMovingBar;               // used to implement delay
     float InitialTimeStamp;               // stores time when bar movement begins
@@ -51,11 +58,19 @@ public class SceneChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // opening arrays
         initTopYValues  = new float[topBars.Length];
         finalTopYValues = new float[topBars.Length];
 
         initBotYValues  = new float[botBars.Length];
         finalBotYValues = new float[botBars.Length];
+
+       /* // closing arrays
+        initEndTopYValues = new float[topBarsEnd.Length];
+        finalEndTopYValues = new float[topBarsEnd.Length];
+
+        initEndBotYValues = new float[botBarsEnd.Length];
+        finalEndBotYValues = new float[botBarsEnd.Length];*/
 
         //here we initialise these arrays to store the positions we'll be lerping to and from
         for (int i = 0; i < topBars.Length; i++)
@@ -69,6 +84,19 @@ public class SceneChange : MonoBehaviour
             initBotYValues[i]  = botBars[i].position.y;
             finalBotYValues[i] = botBars[i].position.y - yOffset;
         }
+
+
+        /*for (int i = 0; i < topBarsEnd.Length; i++)
+        {
+            initTopYValues[i] = topBarsEnd[i].position.y;
+            finalTopYValues[i] = topBarsEnd[i].position.y + yOffset;
+        }
+
+        for (int i = 0; i < botBarsEnd.Length; i++)
+        {
+            initBotYValues[i] = botBarsEnd[i].position.y;
+            finalBotYValues[i] = botBarsEnd[i].position.y - yOffset;
+        }*/
 
         InitialTimeStamp = Time.time;
     }
