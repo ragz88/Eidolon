@@ -405,6 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &73170816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1296,6 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &196961885
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1473,7 +1475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258570478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.606415, y: -1.5452037, z: -11.068487}
+  m_LocalPosition: {x: -24.606415, y: -1.5452037, z: -13.068487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 864973055}
@@ -1707,6 +1709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &278173912
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1872,6 +1875,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &309166093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309166094}
+  m_Layer: 14
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309166094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309166093}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.6600003, y: -1.230607, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &341724988
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,6 +7547,8 @@ MonoBehaviour:
   pauseWindSpeed: 0
   twoPhaseCycle: 0
   currentSpeed: 0
+  pauseChelle: 0
+  chelleInitialPause: 0
   animator: {fileID: 447653706}
 --- !u!95 &447653706
 Animator:
@@ -7564,6 +7599,8 @@ MonoBehaviour:
   overridden: 0
   overideTrans: {fileID: 0}
   overrideSpeed: 2
+  chelleInitialPause: 0
+  initialFloatSpeed: 2
 --- !u!1 &448370978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7881,6 +7918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &494726981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8183,7 +8221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.73, y: -0.7999995, z: -11.068487}
+  m_LocalPosition: {x: -3.73, y: -0.7999995, z: -13.068487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 707561352}
@@ -8261,7 +8299,7 @@ MonoBehaviour:
   m_ZDamping: 0.5
   m_ScreenX: 0.5
   m_ScreenY: 0.409
-  m_CameraDistance: 10
+  m_CameraDistance: 12
   m_DeadZoneWidth: 0.13
   m_DeadZoneHeight: 0.068
   m_DeadZoneDepth: 0
@@ -8592,6 +8630,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &565772929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9039484924941243050, guid: a66b871dbb7557c46a53e659a69e29a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1332656632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &568642140
 GameObject:
   m_ObjectHideFlags: 0
@@ -9791,6 +9835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &745988038
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16006,6 +16051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &918339605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16345,6 +16391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &979653107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16476,6 +16523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &980414046
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16913,6 +16961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1022495123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17044,6 +17093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1024547101
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17273,6 +17323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1042273837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17552,6 +17603,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1092084322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1092084323}
+  m_Layer: 14
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1092084323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092084322}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.95, y: 3.28, z: 7.1440816}
+  m_LocalScale: {x: 0.85711837, y: 0.85711837, z: 0.85711837}
+  m_Children: []
+  m_Father: {fileID: 1269797915}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103698345
 GameObject:
   m_ObjectHideFlags: 0
@@ -19045,7 +19126,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312518, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.29
+      value: 31.35
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312518, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -19175,12 +19256,12 @@ PrefabInstance:
     - target: {fileID: 6048766767471207020, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.02
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767471207020, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.37
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -19758,6 +19839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1252894384
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20005,6 +20087,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.21
       objectReference: {fileID: 0}
+    - target: {fileID: 1613872035726037205, guid: 1f2fc1fc12167694f99e57aca88ad096,
+        type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1092084323}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f2fc1fc12167694f99e57aca88ad096, type: 3}
 --- !u!4 &1269797915 stripped
@@ -20588,6 +20675,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: WalkActivatedFlames
       objectReference: {fileID: 0}
+    - target: {fileID: 9039484924941243050, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 9039484924941243050, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9039484924941243050, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.16
+      objectReference: {fileID: 0}
     - target: {fileID: 7098992255901074567, guid: a66b871dbb7557c46a53e659a69e29a3,
         type: 3}
       propertyPath: m_Layer
@@ -20804,6 +20906,52 @@ PrefabInstance:
       propertyPath: flames.Array.data[30]
       value: 
       objectReference: {fileID: 979653105}
+    - target: {fileID: 302209567, guid: a66b871dbb7557c46a53e659a69e29a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 525944083, guid: a66b871dbb7557c46a53e659a69e29a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303964254, guid: a66b871dbb7557c46a53e659a69e29a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378646209, guid: a66b871dbb7557c46a53e659a69e29a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992255972031915, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992256445903290, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992255601627111, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992256372436155, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992256389633262, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098992255901074566, guid: a66b871dbb7557c46a53e659a69e29a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a66b871dbb7557c46a53e659a69e29a3, type: 3}
 --- !u!1 &1332656633 stripped
@@ -20884,6 +21032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20896,6 +21045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20908,6 +21058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20920,6 +21071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20932,6 +21084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20944,6 +21097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20956,6 +21110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20968,6 +21123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20980,6 +21136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!114 &1332656653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20992,6 +21149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!1 &1338584881
 GameObject:
   m_ObjectHideFlags: 0
@@ -21216,6 +21374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1354570953
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22742,6 +22901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1491282838
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22873,6 +23033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1508840063
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23705,7 +23866,7 @@ MonoBehaviour:
   m_ZDamping: 0.5
   m_ScreenX: 0.5
   m_ScreenY: 0.6
-  m_CameraDistance: 10
+  m_CameraDistance: 12
   m_DeadZoneWidth: 0.13
   m_DeadZoneHeight: 0.068
   m_DeadZoneDepth: 0
@@ -24796,6 +24957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1766214866
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25658,6 +25820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1861345498
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27387,6 +27550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1932500398
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27518,6 +27682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &1952062846
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27827,6 +27992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &2010860167
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28356,6 +28522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a80ca14dd7ba1448aed6d9491c199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 565772929}
 --- !u!58 &2085302108
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28884,6 +29051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 1.91
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}

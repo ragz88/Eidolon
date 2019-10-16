@@ -15,6 +15,9 @@ public class SceneChange : MonoBehaviour
 
     public ShutterState shutterState = ShutterState.Opening;
 
+    public static Vector3 spawnPoint;
+    public static int currentSceneNumber = 0;
+
     public Transform[] topBars;
     public Transform[] botBars;
 
@@ -54,6 +57,8 @@ public class SceneChange : MonoBehaviour
 
     bool clarenceActivated = false;
 
+    Vector3 initSpawnPos;
+
 
     // Start is called before the first frame update
     void Start()
@@ -65,12 +70,16 @@ public class SceneChange : MonoBehaviour
         initBotYValues  = new float[botBars.Length];
         finalBotYValues = new float[botBars.Length];
 
-       /* // closing arrays
-        initEndTopYValues = new float[topBarsEnd.Length];
-        finalEndTopYValues = new float[topBarsEnd.Length];
 
-        initEndBotYValues = new float[botBarsEnd.Length];
-        finalEndBotYValues = new float[botBarsEnd.Length];*/
+        initSpawnPos = new Vector3(transform.position.x, transform.position.y, clarence.transform.position.z);      //here's the problem bro.
+
+        if (currentSceneNumber != SceneManager.GetActiveScene().buildIndex)
+        {
+            currentSceneNumber = SceneManager.GetActiveScene().buildIndex;
+            spawnPoint = initSpawnPos;
+        }
+
+        clarence.transform.position = spawnPoint;
 
         //here we initialise these arrays to store the positions we'll be lerping to and from
         for (int i = 0; i < topBars.Length; i++)
@@ -84,19 +93,6 @@ public class SceneChange : MonoBehaviour
             initBotYValues[i]  = botBars[i].position.y;
             finalBotYValues[i] = botBars[i].position.y - yOffset;
         }
-
-
-        /*for (int i = 0; i < topBarsEnd.Length; i++)
-        {
-            initTopYValues[i] = topBarsEnd[i].position.y;
-            finalTopYValues[i] = topBarsEnd[i].position.y + yOffset;
-        }
-
-        for (int i = 0; i < botBarsEnd.Length; i++)
-        {
-            initBotYValues[i] = botBarsEnd[i].position.y;
-            finalBotYValues[i] = botBarsEnd[i].position.y - yOffset;
-        }*/
 
         InitialTimeStamp = Time.time;
     }
@@ -274,7 +270,8 @@ public class SceneChange : MonoBehaviour
 
     public void GameOver()
     {
-        sceneToLoad = GameOverSceneNumber;
+        sceneToLoad = SceneManager.GetActiveScene().buildIndex;
+        SceneChange.spawnPoint = initSpawnPos;
         ClarenceGameController.health = 3;
         shutterState = ShutterState.Closing;
     }

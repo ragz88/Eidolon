@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -384,7 +384,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -562,7 +562,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -4
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 7964e80e64c6a5e429797bfe61f2dcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -983,7 +983,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -2195,7 +2195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -2487,7 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -2955,7 +2955,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: f95e237eed92e384685f497eeadb4bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -3109,7 +3109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -3231,7 +3231,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: f95e237eed92e384685f497eeadb4bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3560,7 +3560,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: f95e237eed92e384685f497eeadb4bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -3640,7 +3640,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -4
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 7964e80e64c6a5e429797bfe61f2dcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -3720,7 +3720,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: f95e237eed92e384685f497eeadb4bb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3825,7 +3825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -3898,7 +3898,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3954,7 +3954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -4052,7 +4052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -4310,7 +4310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -4589,7 +4589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -4791,7 +4791,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5087,7 +5087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -5209,7 +5209,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -5289,7 +5289,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -5394,7 +5394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -5826,7 +5826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -5875,7 +5875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -7517,7 +7517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -7744,7 +7744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -7842,7 +7842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -8452,7 +8452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -8525,7 +8525,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -4
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 7964e80e64c6a5e429797bfe61f2dcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8727,7 +8727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -8905,7 +8905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9052,7 +9052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9186,7 +9186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9308,7 +9308,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 538c7e158a08bb540a1afd0808eb6039, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9364,7 +9364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9511,7 +9511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9737,7 +9737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -9810,7 +9810,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -4
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 7964e80e64c6a5e429797bfe61f2dcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10175,7 +10175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -10273,7 +10273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -11499,7 +11499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.25
+  paralaxMultiplier: -0.25
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -11708,7 +11708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0
@@ -11901,7 +11901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088ef259bb041394bbc53e2709f8ed6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paralaxMultiplier: 0.15
+  paralaxMultiplier: -0.1
   lerpSpeed: 1
   useMaxAndMin: 0
   MaxMovement: 0

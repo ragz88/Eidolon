@@ -59,6 +59,8 @@ public class MichelleWindController : MonoBehaviour
             animator.SetBool("Phase2", false);
             animator.SetBool("Idle", false);
             animator.SetBool("InitIdle", true);
+
+            windState = WindState.Pause;
         }
         else
         {
