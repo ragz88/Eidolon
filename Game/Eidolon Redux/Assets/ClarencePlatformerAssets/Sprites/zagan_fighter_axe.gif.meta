@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 42d687c7019e0c94783849c08f6b15ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2320624716918067062
+    second: zagan_fighter_axe_0
+  - first:
+      213: 6140483819940626855
+    second: zagan_fighter_axe_1
+  - first:
+      213: 5090436228115274737
+    second: zagan_fighter_axe_2
+  - first:
+      213: 3050892469045556537
+    second: zagan_fighter_axe_3
+  - first:
+      213: 8263657971525423893
+    second: zagan_fighter_axe_4
+  - first:
+      213: -1332255112822988138
+    second: zagan_fighter_axe_5
+  - first:
+      213: 162083616117085954
+    second: zagan_fighter_axe_6
+  - first:
+      213: -5793359184120038925
+    second: zagan_fighter_axe_7
+  - first:
+      213: -1672129620319831525
+    second: zagan_fighter_axe_8
+  - first:
+      213: 2628483197070382757
+    second: zagan_fighter_axe_9
+  - first:
+      213: 4006212857090738257
+    second: zagan_fighter_axe_10
+  - first:
+      213: -1371906900137450950
+    second: zagan_fighter_axe_11
+  - first:
+      213: -5582738365936792426
+    second: zagan_fighter_axe_12
+  - first:
+      213: 1118943131982892396
+    second: zagan_fighter_axe_13
+  - first:
+      213: -8214847435463978703
+    second: zagan_fighter_axe_14
+  - first:
+      213: -3350864470122955270
+    second: zagan_fighter_axe_15
+  - first:
+      213: -6369174356237786375
+    second: zagan_fighter_axe_16
+  - first:
+      213: 4172762727481992442
+    second: zagan_fighter_axe_17
+  - first:
+      213: 2445699324844841686
+    second: zagan_fighter_axe_18
+  - first:
+      213: 6740208527595108109
+    second: zagan_fighter_axe_19
+  - first:
+      213: 3256777397362326482
+    second: zagan_fighter_axe_20
+  - first:
+      213: -1394057399406071035
+    second: zagan_fighter_axe_21
+  - first:
+      213: -7254072425017831568
+    second: zagan_fighter_axe_22
+  - first:
+      213: -8931273171268733094
+    second: zagan_fighter_axe_23
+  - first:
+      213: 5246590332310194470
+    second: zagan_fighter_axe_24
+  - first:
+      213: 2511525547604622986
+    second: zagan_fighter_axe_25
+  - first:
+      213: -7476996161437821356
+    second: zagan_fighter_axe_26
+  - first:
+      213: 3318845465073251169
+    second: zagan_fighter_axe_27
+  - first:
+      213: 2490988939236202916
+    second: zagan_fighter_axe_28
+  - first:
+      213: 1905859418096866037
+    second: zagan_fighter_axe_29
+  - first:
+      213: 5726450969900906113
+    second: zagan_fighter_axe_30
+  - first:
+      213: 919994355895933726
+    second: zagan_fighter_axe_31
+  - first:
+      213: -2249560100811920598
+    second: zagan_fighter_axe_32
+  - first:
+      213: 2622970638509104485
+    second: zagan_fighter_axe_33
+  - first:
+      213: 193727434822836871
+    second: zagan_fighter_axe_34
+  - first:
+      213: 5313243678931556843
+    second: zagan_fighter_axe_35
+  - first:
+      213: 7491627565929032470
+    second: zagan_fighter_axe_36
+  - first:
+      213: -5945105436422699101
+    second: zagan_fighter_axe_37
+  - first:
+      213: -3264434386465465306
+    second: zagan_fighter_axe_38
+  - first:
+      213: -7957552792073090482
+    second: zagan_fighter_axe_39
+  - first:
+      213: -4013635245269783558
+    second: zagan_fighter_axe_40
+  - first:
+      213: 1625661853985060690
+    second: zagan_fighter_axe_41
+  - first:
+      213: -8058902703783248834
+    second: zagan_fighter_axe_42
+  - first:
+      213: -4694313499244604619
+    second: zagan_fighter_axe_43
+  - first:
+      213: 9007826589928786494
+    second: zagan_fighter_axe_44
+  - first:
+      213: -1576121290508582377
+    second: zagan_fighter_axe_45
+  - first:
+      213: 2989381696655180100
+    second: zagan_fighter_axe_46
+  - first:
+      213: 4772543554676672359
+    second: zagan_fighter_axe_47
+  - first:
+      213: 4809915325368780450
+    second: zagan_fighter_axe_48
+  - first:
+      213: 7888908326968499008
+    second: zagan_fighter_axe_49
+  - first:
+      213: -7338631631554143049
+    second: zagan_fighter_axe_50
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zagan_fighter_axe_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a58b3472f77dbe4dabf3c5fab730525
+      internalID: -2320624716918067062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 319
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caa615950abc3a4998c8719a63ad482
+      internalID: 6140483819940626855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 319
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807026cba7d3c764697a66f49d0d7a45
+      internalID: 5090436228115274737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 316
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7063a39947044d9384f4a05af149f
+      internalID: 3050892469045556537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 322
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b8a5e25b949de4dab585404b5d1e47
+      internalID: 8263657971525423893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 325
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f61a8c8c7ddec4c9c9e1ad622dd578
+      internalID: -1332255112822988138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 326
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3833f3728bdd5f489b305218e56f614
+      internalID: 162083616117085954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 324
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522022886970e0149b17dc71ee5ff423
+      internalID: -5793359184120038925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 322
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806074ccfbf00354a9b58311353b7cdf
+      internalID: -1672129620319831525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 259
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1771e881545f52441bdf7a9bde282097
+      internalID: 2628483197070382757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 248
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351b57c36834d1747a8d5329f98e72c9
+      internalID: 4006212857090738257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 256
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3104b48b003bc744abdf9584c0af1471
+      internalID: -1371906900137450950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb87ee565a2f9e43b71feead885acac
+      internalID: -5582738365936792426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 277
+        width: 91
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509a4dfcad0d6854e802f72384cb5c84
+      internalID: 1118943131982892396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 233
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7fc1f25d8e26b48a86ab27d867797d
+      internalID: -8214847435463978703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_15
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 272
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd14a664fd806b4c8492899b7a6d37b
+      internalID: -3350864470122955270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_16
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 250
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a850f3391bb2ac48a5435fad18dbd67
+      internalID: -6369174356237786375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 265
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03a0f2e4fb3954a8c4207950f748a9
+      internalID: 4172762727481992442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 250
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daccacde0688e04c9ec98d144b65748
+      internalID: 2445699324844841686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_19
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 242
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e081327433126347b67ff1756d34445
+      internalID: 6740208527595108109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc789b81d8906244b1cc908a7de5115
+      internalID: 3256777397362326482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 196
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d406e5e9d4a4dc41b3edaf8940d83ca
+      internalID: -1394057399406071035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 198
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ce9d5fceaba914eb023135ff00e149
+      internalID: -7254072425017831568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 199
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298bd9bb38ecdb6438de0e5b3f038741
+      internalID: -8931273171268733094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 183
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9efe6cacc8e4d4c82a19de9a647f8f
+      internalID: 5246590332310194470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 181
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6267264dd83f969459ec74bf13a83749
+      internalID: 2511525547604622986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_26
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 182
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9c109ad01a42d49bafff0adef6ef5e
+      internalID: -7476996161437821356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_27
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 186
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cb249f3dd4a4c458dd8610fe252df4
+      internalID: 3318845465073251169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_28
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 186
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8c152c9d5cd544a6399c516ae6bcf
+      internalID: 2490988939236202916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 174
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f75e702c99aa79418099f20cb8bd7ea
+      internalID: 1905859418096866037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228042e3cbef1524f9338f8e39991ff0
+      internalID: 5726450969900906113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 112
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd52eb4bce3994688a659297a144cb
+      internalID: 919994355895933726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 113
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a496ac6c0334541be30b999832695c
+      internalID: -2249560100811920598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146ea8c150d010c48940b155ff709d17
+      internalID: 2622970638509104485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_34
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 112
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4423b79cdc7a0349ab37d8beaa5a371
+      internalID: 193727434822836871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_35
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 112
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617b667534999c4483283b36942bf50
+      internalID: 5313243678931556843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_36
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 112
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5c85393e8f56346a92b3009136e138
+      internalID: 7491627565929032470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_37
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 112
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffdafabb491bd84694fdafc3f7bf1dd
+      internalID: -5945105436422699101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_38
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 112
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5faa6432e317a49a43d30a13030835
+      internalID: -3264434386465465306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_39
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 111
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056d76698e7d99541b34332ce70b8157
+      internalID: -7957552792073090482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 58
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157f41eed63ea0c4392f79398d2176d5
+      internalID: -4013635245269783558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 59
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7147b29566ea0e41865439b9967c0a8
+      internalID: 1625661853985060690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_42
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 59
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca413fdb2b26b41b4b02ec3265356a
+      internalID: -8058902703783248834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 58
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79456d3eb37ed4b4598c6ae6f2a9980a
+      internalID: -4694313499244604619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_44
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 57
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c83cef626d5f4cab5febdbde9e690
+      internalID: 9007826589928786494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_45
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 14
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a2ec0602336504fab72587cb3d1dc0
+      internalID: -1576121290508582377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_46
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bc5defd87f757459990ea408e1dc85
+      internalID: 2989381696655180100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cd7c9cc15b00548ad7f014f12652ab
+      internalID: 4772543554676672359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_48
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 7
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b32dcc523f5cb4db3dd480c5a0349a
+      internalID: 4809915325368780450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_49
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 7
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056cd719ca83d744b67915becad1e70
+      internalID: 7888908326968499008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zagan_fighter_axe_50
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 14
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd0ffb2a391ffb4ab567e42a2fd5a3b
+      internalID: -7338631631554143049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
