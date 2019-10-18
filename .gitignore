@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.meta
+*.meta
+Game/Eidolon Redux/Assets/Third Person Engine/Base Content/Resources/Editor/Addons/Mobile/Resources.unitypackage.meta
+*.meta
