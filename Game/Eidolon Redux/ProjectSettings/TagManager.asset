@@ -10,6 +10,7 @@ TagManager:
   - Vaultable_1m
   - Vaultable_2m
   - HUDCanvas
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -19,13 +20,13 @@ TagManager:
   - UI
   - 
   - 
+  - Ground
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - SubPlayer
+  - WindZones
+  - Intangible
+  - Fire
+  - PlayerSensor
   - 
   - 
   - 
