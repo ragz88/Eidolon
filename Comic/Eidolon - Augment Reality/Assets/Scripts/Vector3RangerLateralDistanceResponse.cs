@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Vector3RangerLateralDistanceResponse : MonoBehaviour
+public class Vector3RangerDistanceResponse : MonoBehaviour
 {
 
     [Range(0,1)]
@@ -15,8 +15,6 @@ public class Vector3RangerLateralDistanceResponse : MonoBehaviour
 
     public Transform ARCam;
 
-    public bool invertDistance = true;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -27,23 +25,16 @@ public class Vector3RangerLateralDistanceResponse : MonoBehaviour
     void Update()
     {
         //float currentDist = Vector3.Distance(transform.position, ARCam.position);         // not as optimised
-        float currentDist = (transform.position.x - ARCam.position.x) - minDistance;
+        float currentDist = transform.position.z - ARCam.position.z;
 
-        /*if (currentDist < 0)
+        if (currentDist < 0)
         {
             currentDist *= -1;
-        }*/
-
-        print(currentDist);
-
-        currentValue = Mathf.Clamp((currentDist/ (maxDistance - minDistance)) , 0f, 1f);
-
-        if (invertDistance)
-        {
-            currentValue = 1 - currentValue;
         }
 
+        currentValue = Mathf.Clamp( ((currentDist - minDistance)/ maxDistance ) , 0f, 1f);
 
+        
 
         for (int i = 0; i < rangers.Length; i++)
         {
