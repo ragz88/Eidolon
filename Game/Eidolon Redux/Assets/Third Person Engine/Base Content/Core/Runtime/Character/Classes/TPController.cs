@@ -44,9 +44,10 @@ namespace ThirdPersonEngine.Runtime
 		[SerializeField] private float crouchRate = 5.0f;
 		[SerializeField] private bool crouchSprint = false;
 		[SerializeField] private OnWallStopProperties onWallStopProperties = OnWallStopProperties.Default;
+        public float zoneMovementSpeed = 1f;
 
-		// Air
-		[SerializeField] private bool airControl = true;
+        // Air
+        [SerializeField] private bool airControl = true;
 		[SerializeField] private float jumpTimer = 0.3f;
 		[SerializeField] private float airValue = 3.0f;
 		[SerializeField] private float jumpHeight = 4.0f;
@@ -181,7 +182,7 @@ namespace ThirdPersonEngine.Runtime
 #endif
 
 				if (vertical != 0)
-					speed = Mathf.SmoothStep(speed, 2 * Mathf.Sign(vertical), 8.5f * Time.deltaTime);
+					speed = Mathf.SmoothStep(speed, 2 * Mathf.Sign(vertical), 8.5f * Time.deltaTime) ;
 				else
 					speed = 0;
 
@@ -194,8 +195,8 @@ namespace ThirdPersonEngine.Runtime
 			}
 			else if (GetMoveAmount() > 0)
 			{
-				speed = Mathf.Clamp(vertical, -1, 1);
-				direction = Mathf.Clamp(horizontal, -1, 1);
+				speed = Mathf.Clamp(vertical, -1, 1) * zoneMovementSpeed;
+				direction = Mathf.Clamp(horizontal, -1, 1) * zoneMovementSpeed;
 				isSprinting = false;
 			}
 			else
