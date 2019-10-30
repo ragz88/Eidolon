@@ -6,6 +6,11 @@ public class DeathTrigger : MonoBehaviour
 {
     public Transform spawnPoint;
 
+    //public bool sceneChangerHeightMod;
+    //public SceneChange sceneChanger;
+    //public float yAdjustment = 0;
+    //public float xAdjustment = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +27,15 @@ public class DeathTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            /*if (sceneChangerHeightMod)
+            {
+                sceneChanger.yAdjustment = yAdjustment;
+                sceneChangerHeightMod = false;
+            }
+            */
             SceneChange.spawnPoint = new Vector3(spawnPoint.position.x, spawnPoint.position.y, other.transform.position.z);
             other.gameObject.GetComponent<ClarenceMovement>().LoseLife();
+            
         }
     }
 }

@@ -41,6 +41,8 @@ public class TextArea : MonoBehaviour
 
     public bool shouldStartChelle = false;
 
+    public int textAreaGlobalNumber = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -139,11 +141,17 @@ public class TextArea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && !playerPresent && !convoPlayed)
+        if (collision.tag == "Player" && !playerPresent && !convoPlayed && !ClarenceGameController.textTutorialsPlayed[textAreaGlobalNumber])
         {
             playerPresent = true;
             timeStamp = Time.time;
             FreezePlayer();
+            ClarenceGameController.textTutorialsPlayed[textAreaGlobalNumber] = true;
+        }
+        else if (ClarenceGameController.textTutorialsPlayed[textAreaGlobalNumber])
+        {
+            UnfreezePlayer();
+            Destroy(gameObject);
         }
     }
 
