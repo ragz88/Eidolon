@@ -134,7 +134,7 @@ public class SceneChange : MonoBehaviour
                 }
 
                 // checks if last bar is in end position
-                if (i == topBars.Length - 1 && (topBars[i].position.y - finalTopYValues[i]) < 0.1f)
+                if (i == topBars.Length - 1 && Mathf.Abs(topBars[i].position.y - finalTopYValues[i]) < 0.1f)
                 {
                     topDone = true;
                 }
@@ -149,13 +149,13 @@ public class SceneChange : MonoBehaviour
                 }
 
                 // checks if last bar is in end position
-                if (i == botBars.Length - 1 && (botBars[i].position.y - finalBotYValues[i]) < 0.1f)
+                if (i == botBars.Length - 1 && Mathf.Abs(botBars[i].position.y - finalBotYValues[i]) < 0.1f)
                 {
                     botDone = true;
                 }
 
                 // here we allow Clarence to move again, when the bars are nearly done moving
-                if (i == 0 && (botBars[i].position.y - finalBotYValues[i]) < 0.1f && !clarenceActivated)
+                if (i == 0 && Mathf.Abs(botBars[i].position.y - finalBotYValues[i]) < 0.1f && !clarenceActivated)
                 {
                     clarence.enabled = true;
                     clarenceActivated = true;
@@ -201,7 +201,7 @@ public class SceneChange : MonoBehaviour
                 }
 
                 // checks if last bar is in end position
-                if (i == topBars.Length - 1 && (topBars[i].position.y - initTopYValues[i]) < 0.1f)
+                if (i == topBars.Length - 1 && Mathf.Abs(topBars[i].position.y - initTopYValues[i]) < 0.1f)
                 {
                     topDone = true;
                 }
@@ -216,7 +216,7 @@ public class SceneChange : MonoBehaviour
                 }
 
                 // checks if last bar is in end position
-                if (i == botBars.Length - 1 && (botBars[i].position.y - initBotYValues[i]) < 0.1f)
+                if (i == botBars.Length - 1 && Mathf.Abs(botBars[i].position.y - initBotYValues[i]) < 0.1f)
                 {
                     botDone = true;
                 }

@@ -7,6 +7,8 @@ public class ClarenceGameController : MonoBehaviour
     //this static script allows us to store Clarence's health in an easily accessible place.
     public static ClarenceGameController instance = null;
 
+    public static bool[] textTutorialsPlayed;
+
     public static int health = 3;
 
     public Animator[] heartAnimators;
@@ -17,11 +19,24 @@ public class ClarenceGameController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+
+            
         }
         else if (instance != this)   // implies we already have a manager - and we don't want a duplicate.
         {
             Destroy(gameObject);   
         }
+
+        if (textTutorialsPlayed == null)
+        {
+            textTutorialsPlayed = new bool[10];
+
+            for (int i = 0; i < textTutorialsPlayed.Length; i++)
+            {
+                textTutorialsPlayed[i] = false;
+            }
+        }
+
     }
 
     // Update is called once per frame
