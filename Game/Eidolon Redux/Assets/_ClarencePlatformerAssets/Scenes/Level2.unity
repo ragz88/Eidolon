@@ -15229,13 +15229,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rends:
   - rend: {fileID: 2102844624}
-    speed: 0.05
+    speed: 0.015
+    lerpSpeed: 60
     randSpeed: 1
-    randSpeedMaxChange: 0.02
+    randSpeedMaxChange: 0.01
+    currentXTarget: 0
   - rend: {fileID: 1334093599}
-    speed: -0.03
+    speed: -0.015
+    lerpSpeed: 60
     randSpeed: 1
-    randSpeedMaxChange: 0.03
+    randSpeedMaxChange: 0.01
+    currentXTarget: 0
 --- !u!1 &2104695832
 GameObject:
   m_ObjectHideFlags: 0
