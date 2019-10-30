@@ -128,7 +128,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 314795f5dff86f245a71446f4957a8e7, type: 3}
+        m_Texture: {fileID: 2800000, guid: a175661ebb07abf4badd135da0e51da1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
@@ -140,14 +140,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.45
+    - _Cutoff: 0.564
     - _ShadowOffsetScale: 1
     - _ShadowStrength: 1
     - _SquashAmount: 1
     - _TranslucencyViewDependency: 0.2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _TranslucencyColor: {r: 0.4282006, g: 0.9705882, b: 0.15700689, a: 1}
+    - _TranslucencyColor: {r: 0.7366157, g: 0.6944642, b: 0.9622642, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
 --- !u!21 &21000014148766930

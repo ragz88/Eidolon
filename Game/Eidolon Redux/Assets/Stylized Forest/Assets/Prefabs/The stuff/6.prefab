@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 33000011125196646}
   - component: {fileID: 23000013164866510}
   m_Layer: 0
-  m_Name: Broadleaf_3_Autumn
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2d4c1d7e37f5f6949835c55aa6b3a8e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2f6f8faa9c1cf34c8903c8c0f4124a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
@@ -125,14 +125,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.45
+    - _Cutoff: 0.621
     - _ShadowOffsetScale: 1
     - _ShadowStrength: 1
     - _SquashAmount: 1
     - _TranslucencyViewDependency: 0.25
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _TranslucencyColor: {r: 1, g: 0.7058824, b: 0.7058824, a: 1}
+    - _Color: {r: 0.954945, g: 0.88235295, b: 0.99215686, a: 1}
+    - _TranslucencyColor: {r: 0.8712158, g: 0.85506403, b: 0.990566, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
 --- !u!21 &21000014148766930
