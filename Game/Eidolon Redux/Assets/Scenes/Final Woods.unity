@@ -2641,7 +2641,7 @@ GameObject:
   - component: {fileID: 106708577}
   - component: {fileID: 106708576}
   - component: {fileID: 106708575}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4565,7 +4565,7 @@ GameObject:
   - component: {fileID: 218623758}
   - component: {fileID: 218623757}
   - component: {fileID: 218623756}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4645,6 +4645,41 @@ Transform:
   m_Father: {fileID: 1485692273}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -26.258001, z: 0}
+--- !u!84 &219757550
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Directional Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &224611598
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,7 +6008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 313015788}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: look target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9941,7 +9976,7 @@ GameObject:
   - component: {fileID: 563796241}
   - component: {fileID: 563796240}
   - component: {fileID: 563796239}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15284,6 +15319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 270816036416525508, guid: ce5f18d679335c94e98148d4b79095af,
+        type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 270816036416525505, guid: ce5f18d679335c94e98148d4b79095af,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15393,7 +15433,7 @@ GameObject:
   - component: {fileID: 903241686}
   - component: {fileID: 903241685}
   - component: {fileID: 903241684}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17865,7 +17905,7 @@ GameObject:
   - component: {fileID: 1080078814}
   - component: {fileID: 1080078813}
   - component: {fileID: 1080078812}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17957,7 +17997,7 @@ GameObject:
   - component: {fileID: 1083673499}
   - component: {fileID: 1083673498}
   - component: {fileID: 1083673497}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19431,7 +19471,7 @@ GameObject:
   - component: {fileID: 1145375291}
   - component: {fileID: 1145375290}
   - component: {fileID: 1145375289}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20018,7 +20058,7 @@ MonoBehaviour:
   overrideColor: 0
   overridingColor: {r: 0.73228246, g: 0.6338464, b: 0.999999, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 1863177048}
+  shadowMapRenderTexture: {fileID: 219757550}
   useCookie: 0
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -21200,7 +21240,7 @@ GameObject:
   - component: {fileID: 1274597968}
   - component: {fileID: 1274597967}
   - component: {fileID: 1274597966}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24374,7 +24414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485692273}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27459,7 +27499,7 @@ GameObject:
   - component: {fileID: 1667118858}
   - component: {fileID: 1667118857}
   - component: {fileID: 1667118856}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: 'Collider wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28731,7 +28771,7 @@ GameObject:
   - component: {fileID: 1738180765}
   - component: {fileID: 1738180764}
   - component: {fileID: 1738180763}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collider wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30429,41 +30469,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.92788684, y: 1.7169446, z: 0.68330914}
   m_Center: {x: 0.40561348, y: 0.022750767, z: -0.00019052146}
---- !u!84 &1863177048
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Aura Directional Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1868055768
 GameObject:
   m_ObjectHideFlags: 0
