@@ -14,11 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_ClarencePlatformerAssets/Scenes/Level2.unity
     guid: ea4c3af982e6939478b9435c52dc3a6c
-  - enabled: 1
-    path: Assets/_ClarencePlatformerAssets/Scenes/Level3.unity
+  - enabled: 0
+    path: Assets/_ClarencePlatformerAssets/Scenes/OldLevel3.unity
     guid: bbb1161c30aa2e542919c059e460c89d
   - enabled: 1
-    path: Assets/_ClarencePlatformerAssets/Scenes/Level4.unity
+    path: Assets/_ClarencePlatformerAssets/Scenes/Level3.unity
     guid: c022514b7353472479a00d876c728a2d
   - enabled: 1
     path: Assets/_ClarencePlatformerAssets/Scenes/Level5.unity
