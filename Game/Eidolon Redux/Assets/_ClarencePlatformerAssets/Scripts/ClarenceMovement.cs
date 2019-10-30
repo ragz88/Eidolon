@@ -135,7 +135,7 @@ public class ClarenceMovement : MonoBehaviour
             }
 
 
-            if (Input.GetButtonDown("Jump") && grounded && !lockMovement)
+            if (Input.GetButtonDown("ClarenceJump") && grounded && !lockMovement)
             {
                 rb.velocity = rb.velocity + new Vector2(0, jumpSpeed);
             }
