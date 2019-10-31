@@ -34108,7 +34108,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: convoPoints.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -34143,7 +34143,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: convoPoints.Array.data[3].speechText
-      value: Sigh...*Okay, here babe.
+      value: Uhhh... Okay,*try triangle
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -34158,7 +34158,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: convoPoints.Array.data[4].speechText
-      value: Sigh...*Okay, here babe.
+      value: Dang.*     *Maybe it was*Circle?
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -34189,6 +34189,36 @@ PrefabInstance:
         type: 3}
       propertyPath: textAreaGlobalNumber
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[3].jumpPause
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[4].jumpPause
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[5].speechText
+      value: sigh...*Okay, here babe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[5].textComponent
+      value: 
+      objectReference: {fileID: 966070106}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[5].textDelay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: convoPoints.Array.data[5].jumpPause
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766813804418, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
