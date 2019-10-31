@@ -53,6 +53,7 @@ public class SceneChangeSpawner : MonoBehaviour
     public void Quit()
     {
         Destroy(sceneChanger);              // prevents this baby from persisting in memory (later this will only quit back to the main game)
-        Application.Quit();
+        //Application.Quit();
+        SceneManager.LoadScene(0);
     }
 }

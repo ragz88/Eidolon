@@ -8,16 +8,25 @@ public class ArcadeMachineTrigger : MonoBehaviour
 
     public CamLerper.CamState targetCamState;
 
+    public GameObject tutButton;
+
     private void Start()
     {
         camLerper = GameObject.Find("CamLerpController").GetComponent<CamLerper>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
         {
-            camLerper.camState = targetCamState;
+            tutButton.SetActive(true);
+
+            if (Input.GetButtonDown("ActivateMachine"))
+            {
+                camLerper.camState = targetCamState;
+                Destroy(tutButton.gameObject);
+            }
+            
         }
     }
 
@@ -25,7 +34,8 @@ public class ArcadeMachineTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            camLerper.camState = CamLerper.CamState.Standard;
+            //camLerper.camState = CamLerper.CamState.Standard;
+            tutButton.SetActive(false);
         }
         
     }
