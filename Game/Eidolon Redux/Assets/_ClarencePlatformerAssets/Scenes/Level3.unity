@@ -8096,6 +8096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneChanger: {fileID: 530277898}
   endCamStateMachine: {fileID: 0}
+  finalScene: 0
+  menuScene: 0
 --- !u!4 &382295963
 Transform:
   m_ObjectHideFlags: 0
@@ -34038,6 +34040,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextArea
       objectReference: {fileID: 0}
+    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312518, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34126,7 +34138,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: convoPoints.Array.data[2].speechText
-      value: Just press F
+      value: Just press Square
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -34192,16 +34204,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Text
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873954, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
