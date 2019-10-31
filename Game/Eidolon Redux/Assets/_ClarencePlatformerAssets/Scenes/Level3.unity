@@ -34138,7 +34138,7 @@ PrefabInstance:
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: convoPoints.Array.data[2].speechText
-      value: Just press Square
+      value: Just press*Square
       objectReference: {fileID: 0}
     - target: {fileID: 6048766766848312521, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
