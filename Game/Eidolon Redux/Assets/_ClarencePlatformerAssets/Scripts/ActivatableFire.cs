@@ -74,10 +74,12 @@ public class ActivatableFire : MonoBehaviour
             if (flames[i].localScale.y <= scaleThreshhold)
             {
                 flameColliders[i].enabled = false;
+                flameColliders[i].gameObject.SetActive(false);
             }
             else
             {
                 flameColliders[i].enabled = true;
+                flameColliders[i].gameObject.SetActive(true);
             }
         }
     }
