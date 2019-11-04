@@ -13,7 +13,7 @@ public class MaterialTreadmill : MonoBehaviour
     public float maxYSpeed = 5;              // maximum speed of Em
 
     //public float xRampSpeed = 1;
-    public float yRampSpeed = 1;             
+    public float yRampSpeed = 1;
 
     public float walkThreshhold = 0.1f;      // Em begins walking after this
     public float jogThreshhold = 2;          // Em begins jogging after this
@@ -21,7 +21,11 @@ public class MaterialTreadmill : MonoBehaviour
 
     public EmMovement emMovement;
 
-    
+    public Transform[] chunks;
+
+    public float chunkSpeedMultiplier = 10;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,17 +55,56 @@ public class MaterialTreadmill : MonoBehaviour
             emMovement.StartWalk();
         }
 
+        for (int i = 0; i < chunks.Length; i++)
+        {
+            if (chunks[i] != null)
+            {
+                chunks[i].position = chunks[i].position + chunks[i].forward * (ySpeed * Time.deltaTime) * chunkSpeedMultiplier;
+            }
+        }
 
         treadMat.mainTextureOffset = new Vector2(treadMat.mainTextureOffset.x /*+ (xSpeed * Time.deltaTime)*/, treadMat.mainTextureOffset.y + (ySpeed * Time.deltaTime));
     }
 
-    public void EmHalfCrash()
-    {
 
+    public void AddChunk(GameObject newChunk)
+    {
+        int availableSlot = -1;
+
+        for (int i = 0; i < chunks.Length; i++)
+        {
+            if (chunks[i] == null)
+            {
+                availableSlot = i;
+                break;
+            }
+
+        }
+
+        if (availableSlot != -1)
+        {
+            chunks[availableSlot] = newChunk.transform;
+        }
     }
 
-    public void EmFullCrash()
+    public void RemoveChunk()
     {
+        for (int i = 0; i < chunks.Length; i++)
+        {
+            if (i < chunks.Length - 1)
+            {
+                chunks[i] = chunks[i + 1];
+            }
+            else
+            {
+                chunks[i] = null;
+            }
 
+        }
+    }
+
+    public void ChangeSpeed(float newSpeed)
+    {
+        ySpeed = newSpeed;
     }
 }

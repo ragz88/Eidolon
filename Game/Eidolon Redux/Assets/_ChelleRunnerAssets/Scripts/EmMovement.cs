@@ -57,6 +57,8 @@ public class EmMovement : MonoBehaviour
 
     //public Transform emSpriteTrans;
 
+    public SpriteRenderer emRend;
+
     //public Transform jumpPoint;
     //public Transform slidePoint;
     Vector3 initPoint;
@@ -70,6 +72,19 @@ public class EmMovement : MonoBehaviour
 
     float currentGroundRayLength = 0;
 
+    bool invulnerable = false;
+    public float delayBetweenColours = 0.3f;
+    public Material[] invulMaterials;
+    int currentInvulColour = 0;
+
+    public float fullCrashResetSpeed = 0.3f;
+    public float midCrashResetSpeed = 0.3f;
+
+    public MaterialTreadmill treadmill;
+
+    float invulnerableTimer = 0;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -79,6 +94,8 @@ public class EmMovement : MonoBehaviour
         emRigidBody = GetComponent<Rigidbody>();
 
         emAnim.SetBool("walking", true);
+
+        currentGroundRayLength = groundRayStandardLength;
     }
 
     // Update is called once per frame
@@ -86,6 +103,26 @@ public class EmMovement : MonoBehaviour
     {
         if (speedState != EmSpeedState.Stationary)
         {
+            if (invulnerable)
+            {
+                if ((invulnerableTimer <= Time.time - delayBetweenColours) || (invulnerableTimer <= Time.time - (delayBetweenColours/2) && currentInvulColour < 2))
+                {
+                    if (currentInvulColour >= invulMaterials.Length - 1)
+                    {
+                        invulnerable = false;
+                        currentInvulColour = 0;
+                    }
+                    else
+                    {
+                        
+                        emRend.material = invulMaterials[currentInvulColour];
+                        currentInvulColour++;
+                    }
+
+                    invulnerableTimer = Time.time;
+                }
+            }
+
             float movement = Input.GetAxisRaw("Horizontal");
 
             if (specialState != EmSpecialState.Sliding) // check if turn is allowed
@@ -231,6 +268,7 @@ public class EmMovement : MonoBehaviour
 
                 RaycastHit hit;
                 // Does the ray intersect with ground
+                
                 if (Physics.Raycast(transform.position, -transform.up, out hit, currentGroundRayLength, groundRayLayers))
                 {
                     if (Time.time >= (slidingTimer + slideDuration))
@@ -245,7 +283,7 @@ public class EmMovement : MonoBehaviour
                 }
                 else
                 {
-                    if (Time.time >= (slidingTimer + slideDuration))
+                    if (Time.time < (slidingTimer + slideDuration))
                     {
                         slidingTimer = Time.time;
                     }
@@ -284,5 +322,28 @@ public class EmMovement : MonoBehaviour
         emAnim.SetBool("jogging", false);
 
         speedState = EmSpeedState.Running;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!invulnerable)
+        {
+            if (other.tag == "HalfCrash")
+            {
+                treadmill.ChangeSpeed(midCrashResetSpeed);
+
+                invulnerable = true;
+                invulnerableTimer = Time.time;
+            }
+            else if (other.tag == "FullCrash")
+            {
+                treadmill.ChangeSpeed(fullCrashResetSpeed);
+
+                invulnerable = true;
+                invulnerableTimer = Time.time;
+            }
+
+            
+        }
     }
 }

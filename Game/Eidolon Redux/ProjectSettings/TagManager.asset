@@ -11,6 +11,9 @@ TagManager:
   - Vaultable_2m
   - HUDCanvas
   - Ground
+  - ChunkEnd
+  - FullCrash
+  - HalfCrash
   layers:
   - Default
   - TransparentFX
@@ -35,8 +38,8 @@ TagManager:
   - 
   - Player
   - Grabbable Object
-  - 
-  - 
+  - ChunkEnd
+  - ChunkSpawner
   - 
   - 
   - 
