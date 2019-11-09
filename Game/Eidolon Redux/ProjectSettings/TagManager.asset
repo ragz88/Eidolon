@@ -14,6 +14,7 @@ TagManager:
   - ChunkEnd
   - FullCrash
   - HalfCrash
+  - Firefly
   layers:
   - Default
   - TransparentFX
@@ -40,8 +41,8 @@ TagManager:
   - Grabbable Object
   - ChunkEnd
   - ChunkSpawner
-  - 
-  - 
+  - RunnerTree
+  - Fog
   - 
   - 
   - 

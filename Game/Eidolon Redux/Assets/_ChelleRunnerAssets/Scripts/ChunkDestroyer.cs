@@ -26,5 +26,10 @@ public class ChunkDestroyer : MonoBehaviour
             treadmill.RemoveChunk();
             Destroy(other.transform.parent.gameObject);
         }
+        else if (other.tag == "FullCrash" || other.tag == "HalfCrash")
+        {
+            other.GetComponent<FadeOut>().enabled = true;
+            other.GetComponent<FadeOut>().beginFade = true;
+        }
     }
 }

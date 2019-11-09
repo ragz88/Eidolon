@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 197628480}
   - component: {fileID: 197628481}
   - component: {fileID: 197628482}
+  - component: {fileID: 197628483}
   m_Layer: 0
   m_Name: DistanceSensor
   m_TagString: Untagged
@@ -707,7 +708,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197628478}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f983b5981a6b91e4aada10c5982a1e03, type: 3}
   m_Name: 
@@ -721,6 +722,28 @@ MonoBehaviour:
   - {fileID: 433334888}
   ARCam: {fileID: 1672655926}
   invertDistance: 1
+--- !u!114 &197628483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197628478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dff1592b4471d419db2a87e6ba245d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentValue: 0
+  maxAccValue: 0.4
+  minAccValue: -0.4
+  lockX: 0
+  lockY: 1
+  rangers:
+  - {fileID: 1395978535}
+  - {fileID: 1395978534}
+  - {fileID: 433334888}
+  smoothingSpeed: 3
 --- !u!1 &259462453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2345,13 +2368,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241590098}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1f291ac544bfc14484c346c49e5bf07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   distSensor:
   - {fileID: 1254991137}
+  - {fileID: 197628478}
   - {fileID: 197628478}
 --- !u!4 &1241590100
 Transform:
@@ -2379,6 +2403,7 @@ GameObject:
   - component: {fileID: 1254991140}
   - component: {fileID: 1254991139}
   - component: {fileID: 1254991141}
+  - component: {fileID: 1254991142}
   m_Layer: 0
   m_Name: DistanceSensor
   m_TagString: Untagged
@@ -2449,7 +2474,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254991137}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f983b5981a6b91e4aada10c5982a1e03, type: 3}
   m_Name: 
@@ -2463,6 +2488,28 @@ MonoBehaviour:
   - {fileID: 2070778310}
   ARCam: {fileID: 1672655926}
   invertDistance: 1
+--- !u!114 &1254991142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254991137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dff1592b4471d419db2a87e6ba245d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentValue: 0
+  maxAccValue: 0.4
+  minAccValue: -0.4
+  lockX: 0
+  lockY: 1
+  rangers:
+  - {fileID: 1717949709}
+  - {fileID: 1717949710}
+  - {fileID: 2070778310}
+  smoothingSpeed: 3
 --- !u!1 &1395978532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,8 +3202,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.05
-  far clip plane: 2000
-  field of view: 60
+  far clip plane: 100
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: 1

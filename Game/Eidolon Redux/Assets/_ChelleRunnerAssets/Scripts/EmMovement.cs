@@ -125,8 +125,8 @@ public class EmMovement : MonoBehaviour
 
             float movement = Input.GetAxisRaw("Horizontal");
 
-            if (specialState != EmSpecialState.Sliding) // check if turn is allowed
-            {
+            //if (specialState != EmSpecialState.Sliding) // check if turn is allowed
+            //{
                 if (movement < 0)    // left move
                 {
                     if (currentLane != Lane.Left)
@@ -161,7 +161,7 @@ public class EmMovement : MonoBehaviour
                         }
                     }
                 }
-            }
+            //}
 
             // turn control
             if (emTurning)
@@ -235,7 +235,6 @@ public class EmMovement : MonoBehaviour
                     if (Physics.Raycast(transform.position, -transform.up, out hit, currentGroundRayLength, groundRayLayers))
                     {
                         specialState = EmSpecialState.None;
-                        print(hit.collider.gameObject.name);
 
                         emAnim.SetBool("falling", false);
                     }
@@ -243,7 +242,7 @@ public class EmMovement : MonoBehaviour
             }
 
             // slide control
-            if ((!emTurning || specialState == EmSpecialState.Jumping) && specialState != EmSpecialState.Sliding && (Input.GetAxisRaw("Vertical") < -0.2f || Input.GetButtonDown("EmRunnerSlide")))
+            if (/*(!emTurning || specialState == EmSpecialState.Jumping) &&*/ specialState != EmSpecialState.Sliding && (Input.GetAxisRaw("Vertical") < -0.2f || Input.GetButtonDown("EmRunnerSlide")))
             {
                 //emAnim.SetBool("switchLane", false);
                 emAnim.SetBool("jumping", false);
@@ -330,14 +329,22 @@ public class EmMovement : MonoBehaviour
         {
             if (other.tag == "HalfCrash")
             {
-                treadmill.ChangeSpeed(midCrashResetSpeed);
+                /*if (Mathf.Abs(treadmill.ySpeed/2) < midCrashResetSpeed)
+                {
+                    treadmill.ChangeSpeed(midCrashResetSpeed);
+                }
+                else
+                {
+                    treadmill.ChangeSpeed(treadmill.ySpeed / 2);
+                }*/
+                
 
                 invulnerable = true;
                 invulnerableTimer = Time.time;
             }
             else if (other.tag == "FullCrash")
             {
-                treadmill.ChangeSpeed(fullCrashResetSpeed);
+                //treadmill.ChangeSpeed(fullCrashResetSpeed);
 
                 invulnerable = true;
                 invulnerableTimer = Time.time;

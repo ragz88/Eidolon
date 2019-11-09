@@ -4,7 +4,7 @@ using System.IO;
 
 public class HandleTextFile
 {
-    [MenuItem("Tools/Write file")]
+    /*[MenuItem("Tools/Write file")]
     static void WriteString()
     {
         string path = "Assets/Resources/test.txt";
@@ -31,6 +31,6 @@ public class HandleTextFile
         StreamReader reader = new StreamReader(path);
         Debug.Log(reader.ReadToEnd());
         reader.Close();
-    }
+    }*/
 
 }
