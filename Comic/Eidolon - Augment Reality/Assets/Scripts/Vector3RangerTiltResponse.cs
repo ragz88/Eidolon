@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Vector3RangerTiltResponse : MonoBehaviour
+public class Vector3RangerTiltResponse: MonoBehaviour
 {
 
     [Range(0,1)]
@@ -15,6 +15,7 @@ public class Vector3RangerTiltResponse : MonoBehaviour
     public bool lockY = false;
 
     public Vector3Ranger[] rangers;
+    public Vector3RelativeRanger[] relRangers;
 
     float newCurrentPercent = 0;
     public float smoothingSpeed = 1;
@@ -80,6 +81,11 @@ public class Vector3RangerTiltResponse : MonoBehaviour
             rangers[i].currentPercent = newCurrentPercent;
         }
 
-        print(Input.acceleration);
+        for (int i = 0; i < relRangers.Length; i++)
+        {
+            relRangers[i].currentPercent = newCurrentPercent;
+        }
+
+        //print(Input.acceleration);
     }
 }
