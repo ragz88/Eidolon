@@ -43,11 +43,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 29894e545667ebf45bb466a139efd365, type: 3}
 <<<<<<< HEAD
         m_Scale: {x: 3, y: 18}
+<<<<<<< HEAD
         m_Offset: {x: 0, y: -77.56959}
 =======
         m_Scale: {x: 19, y: 36}
         m_Offset: {x: 0, y: -1160.5773}
 >>>>>>> 8e7e9da53af05ed2316fa41dd39b9d315e4f0956
+=======
+        m_Offset: {x: 0, y: -24.469152}
+>>>>>>> parent of 4aa3837... Light it up
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
