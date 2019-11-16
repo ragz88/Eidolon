@@ -228,7 +228,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 68fd9d70e1e3fc147a1df1bde218565b,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 10
+=======
+      value: 26
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 68fd9d70e1e3fc147a1df1bde218565b,
         type: 3}
@@ -808,7 +812,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7586640bc33c0624e989723a279aca8c,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 5
+=======
+      value: 32
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7586640bc33c0624e989723a279aca8c,
         type: 3}
@@ -1839,7 +1847,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 12
+=======
+      value: 30
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7,
         type: 3}
@@ -3388,6 +3400,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 12
 =======
       value: 247
@@ -3395,6 +3408,9 @@ PrefabInstance:
 =======
       value: 11
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 10
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bbf2890df30ee454286e28070a2225ec,
         type: 3}
@@ -3710,7 +3726,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a1aee986173fa2f4384bdb82536ec044,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a1aee986173fa2f4384bdb82536ec044,
         type: 3}
@@ -4045,7 +4061,11 @@ Transform:
   m_LocalScale: {x: 0.86271703, y: 1.2524, z: 0.6795372}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 13
+=======
+  m_RootOrder: 40
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -23.049002, z: 0}
 --- !u!1001 &124036145
 PrefabInstance:
@@ -4097,7 +4117,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 254
+=======
+      value: 50
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -4407,7 +4431,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.17325385, y: 0.20693503, z: -0.0014801751}
+  m_ConnectedAnchor: {x: -0.17325385, y: 0.20693456, z: -0.0014801872}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -4611,6 +4635,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138145797}
   m_Mesh: {fileID: 664456749670281567, guid: 006b695335db3f1458fd52e79774dc16, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &149317473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4758,6 +4783,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb42e76ac17cc7541982457813de2ccf, type: 3}
+=======
+>>>>>>> parent of ef79d07... Added some peeps
 --- !u!1001 &149468233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5398,6 +5425,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &168078138
 GameObject:
@@ -5483,6 +5511,8 @@ Transform:
   m_Dimension: 2
   m_VolumeDepth: 1
 >>>>>>> parent of 4aa3837... Light it up
+=======
+>>>>>>> parent of ef79d07... Added some peeps
 --- !u!1 &174453656
 GameObject:
   m_ObjectHideFlags: 0
@@ -7872,7 +7902,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.17323203, y: 0.20692722, z: -0.0012148534}
+  m_ConnectedAnchor: {x: 0.17323203, y: 0.20692675, z: -0.0012148664}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -8282,6 +8312,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 60
 =======
   m_RootOrder: 16
@@ -8289,6 +8320,9 @@ Transform:
 =======
   m_RootOrder: 64
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 62
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &260680000 stripped
 Transform:
@@ -8718,7 +8752,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 36
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -20.65, y: 10.51, z: 0}
 --- !u!114 &290127187
 MonoBehaviour:
@@ -9150,7 +9188,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10016715, y: -0.050781958, z: 0.005736606}
+  m_ConnectedAnchor: {x: -0.10016715, y: -0.050782435, z: 0.005736606}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -13215,10 +13253,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
 =======
       value: 57
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 55
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 48893d15f0d5eeb4ca8421a087528e24,
         type: 3}
@@ -14361,7 +14403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482715995}
   m_LocalRotation: {x: 1.3365959e-17, y: -0.8418404, z: 8.569141e-18, w: -0.5397267}
-  m_LocalPosition: {x: 266.2, y: 7.043, z: 425.01}
+  m_LocalPosition: {x: 266.2, y: 7.39, z: 425.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1373307738}
@@ -14377,6 +14419,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 62
 =======
   m_RootOrder: 18
@@ -14384,6 +14427,9 @@ Transform:
 =======
   m_RootOrder: 66
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 64
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &482840203
 GameObject:
@@ -16252,7 +16298,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 03cf10706470b154eb68ef4bd8bf8975,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 8
+=======
+      value: 23
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 03cf10706470b154eb68ef4bd8bf8975,
         type: 3}
@@ -18200,7 +18250,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 257
+=======
+      value: 52
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -18737,7 +18791,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 252
+=======
+      value: 48
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
@@ -19074,7 +19132,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 259
+=======
+      value: 54
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -21057,7 +21119,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6059b9595353a0e4987843fb9155dca7,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 13
+=======
+      value: 31
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6059b9595353a0e4987843fb9155dca7,
         type: 3}
@@ -21395,6 +21461,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
 =======
       value: 4
@@ -21402,6 +21469,9 @@ PrefabInstance:
 =======
       value: 8
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 6
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eb1f33da02e777b49815c4b209fb04fc,
         type: 3}
@@ -23153,7 +23223,11 @@ Transform:
   - {fileID: 1593119903}
   - {fileID: 443382548}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 15
+=======
+  m_RootOrder: 42
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -1.309, y: -5.6930003, z: -0.18300001}
 --- !u!1 &785442386
 GameObject:
@@ -24254,8 +24328,13 @@ Transform:
   m_LocalPosition: {x: 3.4580078, y: -0.2227292, z: 2.8801117}
   m_LocalScale: {x: 3.456362, y: 2.0228012, z: 2}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 911302685}
   m_RootOrder: 3
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 44
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 103.191986, y: 267.29102, z: 69.30699}
 --- !u!64 &805102852
 MeshCollider:
@@ -25159,7 +25238,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 263
+=======
+      value: 18
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
@@ -25233,7 +25316,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b8d92bc1018b5394e9ecfc34e60e305f,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 272
+=======
+      value: 20
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b8d92bc1018b5394e9ecfc34e60e305f,
         type: 3}
@@ -26171,10 +26258,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2
 =======
       value: 59
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 57
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 48893d15f0d5eeb4ca8421a087528e24,
         type: 3}
@@ -26874,7 +26965,11 @@ PrefabInstance:
     - target: {fileID: 270816036416525505, guid: ce5f18d679335c94e98148d4b79095af,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 12
+=======
+      value: 39
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: 270816036416525505, guid: ce5f18d679335c94e98148d4b79095af,
         type: 3}
@@ -27221,7 +27316,7 @@ Transform:
   m_GameObject: {fileID: 904206907}
   m_LocalRotation: {x: -0.32208475, y: -0.63018155, z: -0.6297121, w: 0.32030505}
   m_LocalPosition: {x: 151.43259, y: -13.916891, z: -132.84027}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 221
@@ -28156,7 +28251,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10016662, y: -0.0507822, z: 0.0019062494}
+  m_ConnectedAnchor: {x: 0.10016662, y: -0.050782677, z: 0.0019062494}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -28285,7 +28380,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000010473188, y: 0.30557224, z: 0.000000014901161}
+  m_ConnectedAnchor: {x: 0.000010456424, y: 0.3055722, z: -0.000000461936}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -29573,7 +29668,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00002035692, y: 0.19803917, z: -0.0051437514}
+  m_ConnectedAnchor: {x: 0.000020356953, y: 0.19803965, z: -0.0051437514}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -30167,7 +30262,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 58da71c5d4811ba40b4703f38fcdb4e1,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 0
+=======
+      value: 45
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 58da71c5d4811ba40b4703f38fcdb4e1,
         type: 3}
@@ -31136,6 +31235,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 63530827}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &1051752667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31210,6 +31310,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9012fd8fddb45468b1dac7ff954923, type: 3}
+=======
+>>>>>>> parent of ef79d07... Added some peeps
 --- !u!1001 &1054966619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32026,6 +32128,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3eecac1c281b7e64aa998ca208f25acd, type: 2}
+    - target: {fileID: -3891510383576215525, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23d6e0fc80356a74a8247b3107233d8b, type: 2}
     - target: {fileID: -3979108884491080564, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -32036,11 +32143,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3eecac1c281b7e64aa998ca208f25acd, type: 2}
-    - target: {fileID: -3891510383576215525, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 23d6e0fc80356a74a8247b3107233d8b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5acf2f7ed318fac4bb77ceeacacb8ea7, type: 3}
 --- !u!1 &1074836958 stripped
@@ -32521,7 +32623,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000001956099, y: 0.34924966, z: 0.00199709}
+  m_ConnectedAnchor: {x: -0.0000019560953, y: 0.34924918, z: 0.001997077}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -33883,7 +33985,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000006848946, y: 0.30558097, z: -0.000000014901161}
+  m_ConnectedAnchor: {x: -0.0000068319496, y: 0.30558094, z: -0.0000004991889}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -35222,6 +35324,7 @@ MonoBehaviour:
   useShadow: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   shadowMapRenderTexture: {fileID: 697683459}
 =======
   shadowMapRenderTexture: {fileID: 0}
@@ -35229,6 +35332,9 @@ MonoBehaviour:
 =======
   shadowMapRenderTexture: {fileID: 165828278}
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  shadowMapRenderTexture: {fileID: 1874359301}
+>>>>>>> parent of ef79d07... Added some peeps
   useCookie: 0
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -35324,6 +35430,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 40
 <<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 22.601002, y: -17.544, z: -8.950001}
@@ -35332,6 +35439,9 @@ Transform:
   m_LocalEulerAnglesHint: {x: 26.279001, y: -18.322, z: -5.367}
 >>>>>>> 8e7e9da53af05ed2316fa41dd39b9d315e4f0956
 =======
+=======
+  m_RootOrder: 38
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 26.279001, y: -18.322, z: -5.367}
 >>>>>>> parent of 4aa3837... Light it up
 --- !u!4 &1178253248 stripped
@@ -35908,7 +36018,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 258
+=======
+      value: 53
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -37296,6 +37410,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
 =======
       value: 1
@@ -37303,6 +37418,9 @@ PrefabInstance:
 =======
       value: 5
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 3
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6e43b922cf60c1247bd6e0575fe4170b,
         type: 3}
@@ -38961,7 +39079,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a0f2d95595553ed42a74cb9dd53eaa76,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 11
+=======
+      value: 29
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a0f2d95595553ed42a74cb9dd53eaa76,
         type: 3}
@@ -39200,11 +39322,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335175360}
   m_LocalRotation: {x: -0.69264936, y: -0.14490463, z: -0.14322299, w: 0.69190085}
+<<<<<<< HEAD
   m_LocalPosition: {x: 114.252594, y: -13.916891, z: -128.26027}
   m_LocalScale: {x: 1.1, y: 1.1000005, z: 1.1000005}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 251
+=======
+  m_LocalPosition: {x: 329.2, y: 5.026098, z: 172.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 46
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -90.146996, y: 54.249992, z: -77.76099}
 --- !u!65 &1335175364
 BoxCollider:
@@ -39540,10 +39670,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
 =======
       value: 60
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 58
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 48893d15f0d5eeb4ca8421a087528e24,
         type: 3}
@@ -39739,7 +39873,7 @@ Transform:
   m_GameObject: {fileID: 1367625495}
   m_LocalRotation: {x: -0.43083134, y: -0.56173, z: -0.56094587, w: 0.4291661}
   m_LocalPosition: {x: 123.87259, y: -13.916891, z: -103.92027}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 246
@@ -39777,6 +39911,7 @@ Transform:
 <<<<<<< HEAD
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 58
 =======
   m_Father: {fileID: 1963333778}
@@ -39785,6 +39920,9 @@ Transform:
 =======
   m_RootOrder: 62
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 60
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -108.482, z: 0}
 --- !u!1 &1368598253
 GameObject:
@@ -39946,6 +40084,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 57
 =======
       value: 269
@@ -39953,6 +40092,9 @@ PrefabInstance:
 =======
       value: 61
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 59
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bbf2890df30ee454286e28070a2225ec,
         type: 3}
@@ -40001,7 +40143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373307737}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: -0.768, z: -0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 482716007}
@@ -40610,6 +40752,7 @@ Transform:
 <<<<<<< HEAD
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 59
 =======
   m_Father: {fileID: 1963333778}
@@ -40618,6 +40761,9 @@ Transform:
 =======
   m_RootOrder: 63
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 61
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -108.482, z: 0}
 --- !u!1 &1420516553
 GameObject:
@@ -40860,6 +41006,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 63
 =======
   m_RootOrder: 19
@@ -40867,6 +41014,9 @@ Transform:
 =======
   m_RootOrder: 67
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 65
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1427006394
 PrefabInstance:
@@ -41409,6 +41559,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0899973, y: 1.630104, z: 2.5785346}
   m_Center: {x: 0, y: 0.79032665, z: 0.00063085556}
+<<<<<<< HEAD
 --- !u!4 &1437828186 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0ad4b6966259af041a3c9f1b81fb380b,
@@ -41524,6 +41675,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb42e76ac17cc7541982457813de2ccf, type: 3}
+=======
+>>>>>>> parent of ef79d07... Added some peeps
 --- !u!4 &1440059766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 835e2179cc917d940b2f536fb523cb17,
@@ -42025,7 +42178,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f39494839af1c25459f0034c01bd42f1,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 260
+=======
+      value: 14
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f39494839af1c25459f0034c01bd42f1,
         type: 3}
@@ -42245,8 +42402,13 @@ Transform:
   m_LocalPosition: {x: 3.4664612, y: -0.2295103, z: 2.9513702}
   m_LocalScale: {x: 3.4563622, y: 2.0228004, z: 2}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 911302685}
   m_RootOrder: 2
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 43
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 103.582, y: 268.351, z: 66.672}
 --- !u!64 &1469774346
 MeshCollider:
@@ -42690,7 +42852,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 58da71c5d4811ba40b4703f38fcdb4e1,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 1
+=======
+      value: 25
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 58da71c5d4811ba40b4703f38fcdb4e1,
         type: 3}
@@ -42804,7 +42970,11 @@ Transform:
   - {fileID: 218623759}
   - {fileID: 1738180766}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 10
+=======
+  m_RootOrder: 37
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1488506901
 GameObject:
@@ -43186,7 +43356,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: bef8e1f998eecc14885be7237f166ae6,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 7
+=======
+      value: 12
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bef8e1f998eecc14885be7237f166ae6,
         type: 3}
@@ -45460,7 +45634,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 256
+=======
+      value: 51
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -46029,7 +46207,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 8b19dceb6f9da384192bd98a8b9cb937,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 9
+=======
+      value: 24
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8b19dceb6f9da384192bd98a8b9cb937,
         type: 3}
@@ -47075,7 +47257,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 33
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1639529518 stripped
 Transform:
@@ -47920,10 +48106,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 249
 =======
       value: 13
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 11
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 48893d15f0d5eeb4ca8421a087528e24,
         type: 3}
@@ -48199,11 +48389,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686528736}
   m_LocalRotation: {x: -0.702811, y: 0.07782504, z: 0.07782504, w: 0.702811}
+<<<<<<< HEAD
   m_LocalPosition: {x: 106.742584, y: -13.919485, z: -118.26027}
   m_LocalScale: {x: 1.0999999, y: 1.1000005, z: 1.1000005}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 255
+=======
+  m_LocalPosition: {x: 321.69, y: 5.023504, z: 182.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 49
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 12.6380005}
 --- !u!65 &1686528740
 BoxCollider:
@@ -49590,6 +49788,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
 =======
       value: 0
@@ -49597,6 +49796,9 @@ PrefabInstance:
 =======
       value: 4
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 2
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0ad4b6966259af041a3c9f1b81fb380b,
         type: 3}
@@ -49764,6 +49966,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8
 =======
       value: 3
@@ -49771,6 +49974,9 @@ PrefabInstance:
 =======
       value: 7
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 5
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2e53fb94b4aa79e42922979e5f851dd4,
         type: 3}
@@ -50253,6 +50459,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 7
 =======
       value: 2
@@ -50260,6 +50467,9 @@ PrefabInstance:
 =======
       value: 6
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 4
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 02179be92303e944cbdb1126a440dc22,
         type: 3}
@@ -51251,7 +51461,11 @@ Transform:
   m_LocalScale: {x: 0.7695, y: 1.4135175, z: 4.2830315}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 14
+=======
+  m_RootOrder: 41
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -27.365002, z: 0}
 --- !u!1 &1790009095
 GameObject:
@@ -52700,6 +52914,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874100693}
   m_Mesh: {fileID: 813255052485958227, guid: 006b695335db3f1458fd52e79774dc16, type: 3}
+--- !u!84 &1874359301
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Aura Directional Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1875220233
 GameObject:
   m_ObjectHideFlags: 0
@@ -52988,6 +53237,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 11
 =======
       value: 6
@@ -52995,6 +53245,9 @@ PrefabInstance:
 =======
       value: 10
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 8
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 248adbe2270cf154598bf66a8a8236ca,
         type: 3}
@@ -54609,6 +54862,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 65
 =======
   m_RootOrder: 21
@@ -54616,6 +54870,9 @@ Transform:
 =======
   m_RootOrder: 69
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 66
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1937525818 stripped
 Transform:
@@ -54992,7 +55249,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 250
+=======
+      value: 13
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0e34b86376d87ee40a817cb2e5d893c4,
         type: 3}
@@ -55519,6 +55780,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 67
 =======
       value: 1
@@ -55526,6 +55788,9 @@ PrefabInstance:
 =======
       value: 58
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 56
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 48893d15f0d5eeb4ca8421a087528e24,
         type: 3}
@@ -55859,7 +56124,11 @@ Transform:
   - {fileID: 1367625499}
 >>>>>>> parent of 4aa3837... Light it up
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 35
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1965273112
 GameObject:
@@ -55904,7 +56173,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 34
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1965583878
 PrefabInstance:
@@ -56247,7 +56520,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d6ab20f516090324bb9157290466b97c,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 266
+=======
+      value: 22
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d6ab20f516090324bb9157290466b97c,
         type: 3}
@@ -56338,6 +56615,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 10
 =======
       value: 5
@@ -56345,6 +56623,9 @@ PrefabInstance:
 =======
       value: 9
 >>>>>>> parent of 4aa3837... Light it up
+=======
+      value: 7
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dd87c33439492ac4c99d55c51a7ac25e,
         type: 3}
@@ -57747,7 +58028,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 265
+=======
+      value: 19
+>>>>>>> parent of ef79d07... Added some peeps
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f269ee538f0513f4485a523730a7633b,
         type: 3}
@@ -58473,11 +58758,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060225738}
   m_LocalRotation: {x: -0.6923097, y: -0.12888515, z: -0.13124366, w: 0.6977615}
+<<<<<<< HEAD
   m_LocalPosition: {x: 109.39258, y: -13.932989, z: -127.03027}
   m_LocalScale: {x: 1.1000003, y: 1.1000003, z: 1.1000003}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 253
+=======
+  m_LocalPosition: {x: 324.34, y: 5.01, z: 173.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 47
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -89.519005, y: 12.794001, z: -33.993}
 --- !u!65 &2060225742
 BoxCollider:
@@ -59494,7 +59787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099984445}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: -0.342, z: 0.192}
+  m_LocalPosition: {x: -0, y: 1.0458549, z: 0.1917764}
   m_LocalScale: {x: 101.00873, y: 101.00873, z: 91.87578}
   m_Children: []
   m_Father: {fileID: 482716007}
@@ -61968,11 +62261,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3587040219372674658}
   m_LocalRotation: {x: -0.695952, y: -0.12510318, z: -0.12510318, w: 0.695952}
+<<<<<<< HEAD
   m_LocalPosition: {x: 105.844604, y: -13.919485, z: -122.57675}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children: []
   m_Father: {fileID: 1963333778}
   m_RootOrder: 267
+=======
+  m_LocalPosition: {x: 320.79202, y: 5.023504, z: 178.01352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -20.381}
 --- !u!23 &550975486665655269
 MeshRenderer:
@@ -65570,8 +65871,13 @@ Transform:
   - {fileID: 340536137569996771}
   - {fileID: 2189519153870864131}
   - {fileID: 1905457518877180079}
+<<<<<<< HEAD
   m_Father: {fileID: 1963333778}
   m_RootOrder: 268
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1911610950618846447
 MeshFilter:
@@ -70229,7 +70535,11 @@ Transform:
   - {fileID: 1096885686829004251}
   - {fileID: 1289948853396160949}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 28
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: -1.309, y: 45.767002, z: -0.18300001}
 --- !u!23 &3832908730993385344
 MeshRenderer:
@@ -71727,8 +72037,13 @@ Transform:
   - {fileID: 350907192921466069}
   - {fileID: 6289884301816464910}
   - {fileID: 3315359011420293154}
+<<<<<<< HEAD
   m_Father: {fileID: 1963333778}
   m_RootOrder: 262
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -108.452, z: 0}
 --- !u!4 &4405458589735642215
 Transform:
@@ -73832,6 +74147,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 61
 =======
   m_RootOrder: 17
@@ -73839,6 +74155,9 @@ Transform:
 =======
   m_RootOrder: 65
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 63
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &4533156541296944834
 MonoBehaviour:
@@ -77176,6 +77495,7 @@ Transform:
 <<<<<<< HEAD
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 13
 =======
   m_Father: {fileID: 1963333778}
@@ -77184,6 +77504,9 @@ Transform:
 =======
   m_RootOrder: 12
 >>>>>>> parent of 4aa3837... Light it up
+=======
+  m_RootOrder: 9
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: -108.482, z: 0}
 --- !u!4 &5066030849314591855
 Transform:
@@ -79232,8 +79555,13 @@ Transform:
   - {fileID: 880314086}
   - {fileID: 1618998104}
   - {fileID: 1196321916}
+<<<<<<< HEAD
   m_Father: {fileID: 1963333778}
   m_RootOrder: 264
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 85.698006, z: 180.00002}
 --- !u!4 &5823168292877096454
 Transform:
@@ -85302,8 +85630,13 @@ Transform:
   - {fileID: 8570938041317943605}
   - {fileID: 3061515059621911779}
   - {fileID: 4610470120229558810}
+<<<<<<< HEAD
   m_Father: {fileID: 1963333778}
   m_RootOrder: 261
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+>>>>>>> parent of ef79d07... Added some peeps
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7759385658511685663
 MeshFilter:
