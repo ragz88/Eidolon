@@ -14,6 +14,13 @@ public class InactiveObjectDeactivator : MonoBehaviour
 
     public VibratePattern[] vibrators;
 
+    public SpriteRenderer[] spriteRends;
+    public Renderer[] rends;
+
+    float alphaVal = 0;
+
+    public float fadeSpeed = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +33,19 @@ public class InactiveObjectDeactivator : MonoBehaviour
         }
 
         Vibration.Cancel();
+
+        // reset fade of all renderers
+        alphaVal = 0;
+
+        for (int i = 0; i < spriteRends.Length; i++)
+        {
+            spriteRends[i].color = new Color(spriteRends[i].color.r, spriteRends[i].color.g, spriteRends[i].color.b, 0);
+        }
+
+        for (int i = 0; i < rends.Length; i++)
+        {
+            rends[i].material.color = new Color(rends[i].material.color.r, rends[i].material.color.g, rends[i].material.color.b, 0);
+        }
     }
 
     // Update is called once per frame
@@ -53,6 +73,38 @@ public class InactiveObjectDeactivator : MonoBehaviour
             for (int i = 0; i < objectsToActivate.Length; i++)
             {
                 objectsToActivate[i].SetActive(false);
+            }
+
+            // set the renderers to transparrent
+            alphaVal = 0;
+
+            for (int i = 0; i < spriteRends.Length; i++)
+            {
+                spriteRends[i].color = new Color(spriteRends[i].color.r, spriteRends[i].color.g, spriteRends[i].color.b, 0);
+            }
+
+            for (int i = 0; i < rends.Length; i++)
+            {
+                rends[i].material.color = new Color(rends[i].material.color.r, rends[i].material.color.g, rends[i].material.color.b, 0);
+            }
+        }
+
+        // fade in sprites
+        if (alphaVal < 1)
+        {
+            if (rend.enabled)
+            {
+                alphaVal = Mathf.Lerp(alphaVal, 1.15f, fadeSpeed * Time.deltaTime);
+
+                for (int i = 0; i < spriteRends.Length; i++)
+                {
+                    spriteRends[i].color = new Color(spriteRends[i].color.r, spriteRends[i].color.g, spriteRends[i].color.b, alphaVal);
+                }
+
+                for (int i = 0; i < rends.Length; i++)
+                {
+                    rends[i].material.color = new Color(rends[i].material.color.r, rends[i].material.color.g, rends[i].material.color.b, alphaVal);
+                }
             }
         }
     }

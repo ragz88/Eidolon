@@ -7,7 +7,8 @@ public class Vector3Ranger : MonoBehaviour
     public enum RangerType
     {
         Scale,
-        Position
+        Position,
+        EulerAngles
     }
 
     public RangerType rangeType = RangerType.Scale;
@@ -34,6 +35,10 @@ public class Vector3Ranger : MonoBehaviour
         else if (rangeType == RangerType.Position)
         {
             gameObject.transform.localPosition = Vector3.Lerp(initVector, finVector, currentPercent);
+        }
+        else if(rangeType == RangerType.EulerAngles)
+        {
+            gameObject.transform.localEulerAngles = Vector3.Lerp(initVector, finVector, currentPercent);
         }
     }
 }

@@ -15,6 +15,8 @@ public class ArrowSpritePulse : MonoBehaviour
 
     public Direction direction;
 
+    public bool ScaleVerticallyOnly = true;
+
 
     //public Material arrowMat;
     //public Material barMat;
@@ -49,15 +51,23 @@ public class ArrowSpritePulse : MonoBehaviour
     {
         float currentBarLevel = 0;
 
-        if (audioSyncVal.currentVal > 0.9f)
+        if (audioSyncVal.currentVal > 1.25f)
         {
-            currentBarLevel = 0.9f;
+            currentBarLevel = 1.25f;
         }
         else
         {
             currentBarLevel = audioSyncVal.currentVal;
         }
 
-        transform.localScale = new Vector3(currentBarLevel, currentBarLevel, currentBarLevel);
+        if (ScaleVerticallyOnly)
+        {
+            transform.localScale = new Vector3(transform.localScale.x, currentBarLevel, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(currentBarLevel, currentBarLevel, currentBarLevel);
+        }
+        
     }
 }

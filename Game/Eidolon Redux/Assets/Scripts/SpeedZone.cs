@@ -22,7 +22,7 @@ namespace ThirdPersonEngine.Runtime
         // Update is called once per frame
         void Update()
         {
-            print(controller.zoneMovementSpeed);
+            //print(controller.zoneMovementSpeed);
             if ((currentTime < lerpTime) && (lerp))
             {
                 currentTime += Time.deltaTime;

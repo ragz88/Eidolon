@@ -49,6 +49,8 @@ public class ArrowSensorV2 : MonoBehaviour
     public ParticleSystem longArrowParticles;    // Particles that show when a long arrow is being hit
     public DDRScoreManager scoreManager;
 
+    public SpriteRenderer rend;                  // Used for feedback through colour change
+
 
     //End Public Variables -----------------------------------------------------------------------------------------
 
@@ -56,16 +58,21 @@ public class ArrowSensorV2 : MonoBehaviour
 
     //Private Variables --------------------------------------------------------------------------------------------
 
-    bool missArrowAfterPerfect = false;          // Defines when a falling arrow should count as missed - set by general settings object
+    bool missArrowAfterPerfect = false;                // Defines when a falling arrow should count as missed - set by general settings object
 
     EnteredArrow[] currentEnteredArrows;
 
-    int maxEnteredArrows = 4;                   // Maximum number of arrows expected in the sensor ant any given time.
+    int maxEnteredArrows = 4;                         // Maximum number of arrows expected in the sensor ant any given time.
 
-    GeneralSensorSettings sensorSettings;       // Stores tweakable settings that apply to all sensors
+    GeneralSensorSettings sensorSettings;             // Stores tweakable settings that apply to all sensors
 
-    LongArrowV2 currentLongFallingArrow;        // Stores component of long falling arrow should one enter the sensor
-    int currentLongArrowID = 0;                 // Stores ID of long falling arrow that's currently in sensor.
+    LongFallingSpriteArrow currentLongFallingArrow;   // Stores component of long falling arrow should one enter the sensor
+    int currentLongArrowID = 0;                       // Stores ID of long falling arrow that's currently in sensor.
+
+    Color initColour;
+    float colourReturnSpeed = 3;
+    float colourPauseTimer = 0;
+    float colourPauseTime = 0.2f;
 
     //End Private Variables ----------------------------------------------------------------------------------------
 
@@ -87,6 +94,9 @@ public class ArrowSensorV2 : MonoBehaviour
         missArrowAfterPerfect = sensorSettings.missAfterPerfect;
 
         StopLongArrowParticles();                                             // hides the particles for long arrow feedbacks
+
+        initColour = rend.color;
+        rend.color = Color.black;
     }
 
     // Update is called once per frame
@@ -97,7 +107,7 @@ public class ArrowSensorV2 : MonoBehaviour
 
         if (currentEnteredArrows[0].arrowObject != null)                     // checks if the array is empty
         {
-            
+
             // Standard Arrow Handler =====================================================================================================
             if (currentEnteredArrows[0].arrowType == ArrowType.Standard)
             {
@@ -164,7 +174,7 @@ public class ArrowSensorV2 : MonoBehaviour
                     {
                         axisPressedPreviousFrame = false;
                     }
-                    
+
 
                     if (relativeDistance < -missDistance)  //Miss                                              
                     {
@@ -181,7 +191,8 @@ public class ArrowSensorV2 : MonoBehaviour
             // Long Arrow Handler =========================================================================================================
             else if (currentEnteredArrows[0].arrowType == ArrowType.Long)
             {
-                
+                // Old Long arrows script - shoul we ever wish to revert to this function.
+                /*
                 if (currentEnteredArrows[0].objectID != currentLongArrowID)     // check if the current long arrow has changed from the previous frame
                 {
                     currentLongFallingArrow = currentEnteredArrows[0].arrowObject.GetComponent<LongArrowV2>();
@@ -191,11 +202,11 @@ public class ArrowSensorV2 : MonoBehaviour
                 if (currentLongFallingArrow.topArrow.position.y < transform.position.y)         // this marks the point when the long arrow can no longer score
                 {
                     StopLongArrowParticles();
-                    
+
                     // this is a final check to ensure the last point in the bar isn't missed due to framerate issues
                     if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
                     {
-                       currentLongFallingArrow.setFinalPoints(endLongArrowLiniency);      // sets the last few points in the bar to true if the button is still depresseds
+                        currentLongFallingArrow.setFinalPoints(endLongArrowLiniency);      // sets the last few points in the bar to true if the button is still depresseds
                     }
 
                     // analyse hit quality by how much of arrow was hit
@@ -245,11 +256,104 @@ public class ArrowSensorV2 : MonoBehaviour
                     {
                         currentLongFallingArrow.isCurrentlyPressed = false;
                     }
-                }     
+                }
+                */
+
+                if (currentEnteredArrows[0].objectID != currentLongArrowID)     // check if the current long arrow has changed from the previous frame
+                {
+                    currentLongFallingArrow = currentEnteredArrows[0].arrowObject.GetComponent<LongFallingSpriteArrow>();
+                    currentLongArrowID = currentEnteredArrows[0].objectID;
+                }
+
+                if (currentLongFallingArrow.shattered)                          // player has lifted their finger.
+                {
+                    scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
+                    currentLongFallingArrow.midScore();
+
+                    currentLongFallingArrow.inSensor = false;
+                    currentLongFallingArrow.isCurrentlyPressed = false;
+                    currentLongFallingArrow = null;
+                    DeleteFirstLongArrow();
+                }
+                else
+                {
+                    if (currentLongFallingArrow.topArrow.position.y < transform.position.y)         // this marks the point when the long arrow can no longer score
+                    {
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Perfect);
+                        currentLongFallingArrow.successfulScore();
+
+                        currentLongFallingArrow.inSensor = false;
+                        currentLongFallingArrow.isCurrentlyPressed = false;
+                        currentLongFallingArrow = null;
+                        DeleteFirstLongArrow();
+                    }
+                    else
+                    {
+                        currentLongFallingArrow.inSensor = true;
+
+                        if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
+                        {
+                            currentLongFallingArrow.isCurrentlyPressed = true;
+                            //PlayLongArrowParticles();                                          still requires tweaking
+
+                            if (!currentLongFallingArrow.arrowAligned)
+                            {
+                                if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < 0.02f && (currentLongFallingArrow.bottomArrow.position.y - transform.position.y) > -0.02f)
+                                {
+                                    currentLongFallingArrow.arrowAligned = true;
+                                }
+
+                            }
+                        }
+                        else
+                        {
+                            currentLongFallingArrow.isCurrentlyPressed = false;
+                        }
+
+                        if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < -0.2f)
+                        {
+                            // missed
+                            if (currentLongFallingArrow.pressedBefore)
+                            {
+                                currentLongFallingArrow.midScore();
+                                scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
+
+                            }
+                            else
+                            {
+                                currentLongFallingArrow.missScore();
+                                scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Miss);
+                            }
+
+                            currentLongFallingArrow.inSensor = false;
+                            currentLongFallingArrow.isCurrentlyPressed = false;
+
+
+                            currentLongFallingArrow.arrowAligned = false;
+
+                            currentLongFallingArrow.shattered = true;
+                            currentLongFallingArrow = null;
+                            DeleteFirstLongArrow();
+                        }
+
+                        
+                    }
+                }
 
             }
 
             // End Long Arrow Handler =====================================================================================================
+        }
+
+        // feedback
+        if (Input.GetButtonDown(sensorButtonName) || (Input.GetAxisRaw(sensorAxisName) == axisValue))                   // checks if the sensor's allocated button is being pressed
+        {
+            rend.color = initColour;
+            colourPauseTimer = Time.time;
+        }
+        else if (Time.time > colourPauseTimer + colourPauseTime)
+        {
+            rend.color = Color.Lerp(rend.color, Color.black, colourReturnSpeed * Time.deltaTime);
         }
 
     }
@@ -292,7 +396,7 @@ public class ArrowSensorV2 : MonoBehaviour
             {
                 currentEnteredArrows[firstNullPosition] = new EnteredArrow(Time.time, other.gameObject, ArrowType.Standard);
             }
-            else if (other.gameObject.GetComponent<LongFallingArrow>())
+            else if (other.gameObject.GetComponent<LongFallingArrow>() || other.gameObject.GetComponent<LongFallingSpriteArrow>())
             {
                 currentEnteredArrows[firstNullPosition] = new EnteredArrow(Time.time, other.gameObject, ArrowType.Long);
             }
@@ -321,7 +425,7 @@ public class ArrowSensorV2 : MonoBehaviour
 
 
     //Examines arrow to see percentage of it that was hit.
-    float ExtractLongArrowScore()
+    /*float ExtractLongArrowScore()
     {
         float percentageHit = 0;
 
@@ -335,10 +439,10 @@ public class ArrowSensorV2 : MonoBehaviour
             /*print("Lenght: " + currentLongFallingArrow.hitArray.Length);
             print("Value: " + (1f / currentLongFallingArrow.hitArray.Length));
             print(1/24);*/
-        }
+    /*    }
 
         return percentageHit;
-    }
+    }*/
     
     // This removes the first arrow in the array if it's a long arrow and shifts all the remaining arrows over - leaving no empty space
     void DeleteFirstLongArrow()
