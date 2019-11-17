@@ -138,28 +138,29 @@ public class ArrowSensorV2 : MonoBehaviour
                         //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Perfect);
                         scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Perfect);
                         DeleteFirstArrow();
-                        Instantiate(standardPartsPrefab);
+
+                        Instantiate(standardPartsPrefab, transform.position, Quaternion.identity);
                     }
                     else if ((absRelativeDistance <= sensorSettings.greatDistance) && (relativeDistance >= -missDistance))  //Great Hit.
                     {
                         //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Great);
                         scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Great);
                         DeleteFirstArrow();
-                        Instantiate(standardPartsPrefab);
+                        Instantiate(standardPartsPrefab, transform.position, Quaternion.identity);
                     }
                     else if ((absRelativeDistance <= sensorSettings.goodDistance) && (relativeDistance >= -missDistance))  //Good Hit.
                     {
                         //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Good);
                         scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Good);
                         DeleteFirstArrow();
-                        Instantiate(standardPartsPrefab);
+                        Instantiate(standardPartsPrefab, transform.position, Quaternion.identity);
                     }
                     else if ((absRelativeDistance <= sensorSettings.almostDistance) && (relativeDistance >= -missDistance))  //Almost Hit.
                     {
                         //scoreManager.DisplayHitQuality(DDRScoreManager.HitQuality.Almost);
                         scoreManager.processStandardArrowHit(DDRScoreManager.HitQuality.Almost);
                         DeleteFirstArrow();
-                        Instantiate(standardPartsPrefab);
+                        Instantiate(standardPartsPrefab, transform.position, Quaternion.identity);
                     }
                     else if (relativeDistance < -missDistance)  //Miss
                     {
@@ -265,22 +266,12 @@ public class ArrowSensorV2 : MonoBehaviour
                     currentLongArrowID = currentEnteredArrows[0].objectID;
                 }
 
-                if (currentLongFallingArrow.shattered)                          // player has lifted their finger.
+                if (currentLongFallingArrow != null)
                 {
-                    scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
-                    currentLongFallingArrow.midScore();
-
-                    currentLongFallingArrow.inSensor = false;
-                    currentLongFallingArrow.isCurrentlyPressed = false;
-                    currentLongFallingArrow = null;
-                    DeleteFirstLongArrow();
-                }
-                else
-                {
-                    if (currentLongFallingArrow.topArrow.position.y < transform.position.y)         // this marks the point when the long arrow can no longer score
+                    if (currentLongFallingArrow.shattered)                          // player has lifted their finger.
                     {
-                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Perfect);
-                        currentLongFallingArrow.successfulScore();
+                        scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
+                        currentLongFallingArrow.midScore();
 
                         currentLongFallingArrow.inSensor = false;
                         currentLongFallingArrow.isCurrentlyPressed = false;
@@ -289,54 +280,69 @@ public class ArrowSensorV2 : MonoBehaviour
                     }
                     else
                     {
-                        currentLongFallingArrow.inSensor = true;
-
-                        if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
+                        if (currentLongFallingArrow.topArrow.position.y < transform.position.y)         // this marks the point when the long arrow can no longer score
                         {
-                            currentLongFallingArrow.isCurrentlyPressed = true;
-                            //PlayLongArrowParticles();                                          still requires tweaking
-
-                            if (!currentLongFallingArrow.arrowAligned)
-                            {
-                                if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < 0.02f && (currentLongFallingArrow.bottomArrow.position.y - transform.position.y) > -0.02f)
-                                {
-                                    currentLongFallingArrow.arrowAligned = true;
-                                }
-
-                            }
-                        }
-                        else
-                        {
-                            currentLongFallingArrow.isCurrentlyPressed = false;
-                        }
-
-                        if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < -0.2f)
-                        {
-                            // missed
-                            if (currentLongFallingArrow.pressedBefore)
-                            {
-                                currentLongFallingArrow.midScore();
-                                scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
-
-                            }
-                            else
-                            {
-                                currentLongFallingArrow.missScore();
-                                scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Miss);
-                            }
+                            scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Perfect);
+                            currentLongFallingArrow.successfulScore();
 
                             currentLongFallingArrow.inSensor = false;
                             currentLongFallingArrow.isCurrentlyPressed = false;
-
-
-                            currentLongFallingArrow.arrowAligned = false;
-
-                            currentLongFallingArrow.shattered = true;
                             currentLongFallingArrow = null;
                             DeleteFirstLongArrow();
                         }
+                        else
+                        {
+                            currentLongFallingArrow.inSensor = true;
 
-                        
+                            //print(Input.GetAxisRaw(sensorAxisName));
+
+                            if (Input.GetButton(sensorButtonName) || Input.GetButtonDown(sensorButtonName) || Input.GetAxisRaw(sensorAxisName) == axisValue)
+                            {
+                                currentLongFallingArrow.isCurrentlyPressed = true;
+                                //PlayLongArrowParticles();                                          still requires tweaking
+
+                                if (!currentLongFallingArrow.arrowAligned)
+                                {
+                                    if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < 0.02f && (currentLongFallingArrow.bottomArrow.position.y - transform.position.y) > -1f)
+                                    {
+                                        currentLongFallingArrow.arrowAligned = true;
+                                    }
+
+                                }
+                            }
+                            else
+                            {
+                                currentLongFallingArrow.isCurrentlyPressed = false;
+                            }
+
+                            if ((currentLongFallingArrow.bottomArrow.position.y - transform.position.y) < -1f)
+                            {
+                                // missed
+                                if (currentLongFallingArrow.pressedBefore)
+                                {
+                                    currentLongFallingArrow.midScore();
+                                    scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Almost);
+
+                                }
+                                else
+                                {
+                                    currentLongFallingArrow.missScore();
+                                    scoreManager.processLongArrowHit(DDRScoreManager.HitQuality.Miss);
+                                }
+
+                                currentLongFallingArrow.inSensor = false;
+                                currentLongFallingArrow.isCurrentlyPressed = false;
+
+
+                                currentLongFallingArrow.arrowAligned = false;
+
+                                currentLongFallingArrow.shattered = true;
+                                currentLongFallingArrow = null;
+                                DeleteFirstLongArrow();
+                            }
+
+
+                        }
                     }
                 }
 

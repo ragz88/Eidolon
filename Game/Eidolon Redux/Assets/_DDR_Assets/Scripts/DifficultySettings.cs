@@ -17,6 +17,9 @@ public class DifficultySettings : MonoBehaviour
 
     string tagToDelete;                        // all objects tagged with the incorrect difficulty are removed
 
+    public float scoreAdjustment = -0.02f;
+    public float comboAdjustment = 1.1f;
+
 
     // Words to be shown depending on timing of press
     // and their colours
@@ -65,12 +68,19 @@ public class DifficultySettings : MonoBehaviour
                 tagToDelete = "Expert";
                 scoreManager.SetKeyWords(missStringStd, almostStringStd, goodStringStd, greatStringStd, perfectStringStd);
                 scoreManager.SetKeyWordColours(missColourStd, almostColourStd, goodColourStd, greatColourStd, perfectColourStd);
+                scoreManager.bonusColour = perfectColourStd;
                 break;
 
             case DifficultyLevel.Expert:
                 tagToDelete = "Standard";
                 scoreManager.SetKeyWords(missStringExpert, almostStringExpert, goodStringExpert, greatStringExpert, perfectStringExpert);
                 scoreManager.SetKeyWordColours(missColourExpert, almostColourExpert, goodColourExpert, greatColourExpert, perfectColourExpert);
+                scoreManager.bonusColour = perfectColourExpert;
+                scoreManager.fullBonusMultiplier = comboAdjustment;
+                scoreManager.missEffect += scoreAdjustment;
+                scoreManager.almostEffect += scoreAdjustment;
+                scoreManager.greatEffect += scoreAdjustment;
+                scoreManager.perfectEffect += scoreAdjustment;
                 break;
         }
 
@@ -81,6 +91,8 @@ public class DifficultySettings : MonoBehaviour
                 Destroy(fallingArrows[i]);
             }
         }
+
+        
     }
 
     // Update is called once per frame

@@ -7,7 +7,7 @@ public class StandardFallingArrow : MonoBehaviour
 
     public float fallSpeed = 1;
     public float destroyHeight = -6f;        // at this y position, arrow is automatically destroyed (if missed)
-    //public float arrowAlphaAdjustment = 50;  // change in arrow opacity after miss
+                                             //public float arrowAlphaAdjustment = 50;  // change in arrow opacity after miss
 
     SpriteRenderer arrowSpriteRend;
 

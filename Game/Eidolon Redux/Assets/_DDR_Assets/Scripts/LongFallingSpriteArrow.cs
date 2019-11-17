@@ -22,10 +22,18 @@ public class LongFallingSpriteArrow : MonoBehaviour
     public SpriteRenderer longRend;
 
     bool previousFrameHit = false;
+    bool secondPreviousFrameHit = false;
+    bool thirdPreviousFrameHit = false;
 
     public bool pressedBefore = false;
 
     public bool shattered = false;
+
+    public GameObject burner;
+
+    public GameObject grindParts;
+
+    public GameObject successParts;
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +61,10 @@ public class LongFallingSpriteArrow : MonoBehaviour
 
                     pressedBefore = true;
                     previousFrameHit = true;
+                    secondPreviousFrameHit = true;
+                    thirdPreviousFrameHit = true;
+
+                    grindParts.SetActive(true);
                 }
                 else
                 {
@@ -62,9 +74,18 @@ public class LongFallingSpriteArrow : MonoBehaviour
 
                         previousFrameHit = false;
                     }
+                    else if (secondPreviousFrameHit)
+                    {
+                        secondPreviousFrameHit = false;
+                    }
+                    else if (thirdPreviousFrameHit)
+                    {
+                        thirdPreviousFrameHit = true;
+                    }
                     else if (pressedBefore)
                     {
                         shattered = true;
+                        grindParts.SetActive(false);
                         // cause shatter
                     }
                 }
@@ -72,7 +93,7 @@ public class LongFallingSpriteArrow : MonoBehaviour
         }
         else
         {
-            print("Shattered");
+            //print("Shattered");
         }
 
         if (topArrow.transform.position.y < destroyHeight)
@@ -85,18 +106,25 @@ public class LongFallingSpriteArrow : MonoBehaviour
 
     public void successfulScore()
     {
-        print("Damn Son!");
+        //print("Damn Son!");
+
+        grindParts.SetActive(false);
+        Instantiate(successParts, bottomArrow.position, Quaternion.identity);
+        Destroy(bottomArrow.gameObject);
     }
 
     public void midScore()
     {
-        print("midscore");
+        //print("midscore");
+        //burner.transform
+        burner.SetActive(true);
         //Destroy(gameObject);
     }
 
     public void missScore()
     {
-        print("no way man");
+        //print("no way man");
+        burner.SetActive(true);
         //Destroy(gameObject);
     }
 }
