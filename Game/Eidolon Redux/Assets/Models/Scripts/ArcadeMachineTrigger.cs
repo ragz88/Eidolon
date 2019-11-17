@@ -19,7 +19,10 @@ public class ArcadeMachineTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            tutButton.SetActive(true);
+            if (tutButton != null)
+            {
+                tutButton.SetActive(true);
+            }
 
             if (Input.GetButtonDown("ActivateMachine"))
             {
