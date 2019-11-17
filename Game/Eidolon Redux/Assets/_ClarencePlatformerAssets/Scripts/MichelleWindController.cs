@@ -296,6 +296,14 @@ public class MichelleWindController : MonoBehaviour
             animator.SetBool("Phase2", false);
             animator.SetBool("Idle", false);
         }
+        else
+        {
+            windState = WindState.Pause;
+
+            animator.SetBool("Phase1", false);
+            animator.SetBool("Phase2", false);
+            animator.SetBool("Idle", true);
+        }
     }
 
     public void StartChelleMovement()
@@ -303,9 +311,9 @@ public class MichelleWindController : MonoBehaviour
         chelleInitialPause = false;
         gameObject.GetComponent<MichelleMovement>().StartChelleMovement();
 
-        animator.SetBool("Phase1", false);
+        animator.SetBool("Phase1", true);
         animator.SetBool("Phase2", false);
-        animator.SetBool("Idle", true);
+        animator.SetBool("Idle", false);
         animator.SetBool("InitIdle", false);
     }
 }

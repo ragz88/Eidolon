@@ -18,6 +18,8 @@ public class SceneChange : MonoBehaviour
     public static Vector3 spawnPoint;
     public static int currentSceneNumber = 0;
 
+    public static bool activateChelle = false;
+
     public Transform[] topBars;
     public Transform[] botBars;
 
@@ -59,6 +61,8 @@ public class SceneChange : MonoBehaviour
 
     Vector3 initSpawnPos;
 
+    public MichelleWindController chelleControl;
+
 
     // Start is called before the first frame update
     void Start()
@@ -80,6 +84,16 @@ public class SceneChange : MonoBehaviour
         }
 
         clarence.transform.position = spawnPoint;
+
+        if (chelleControl != null)
+        {
+            if (activateChelle)
+            {
+                chelleControl.SetPauseChelle(false);
+                activateChelle = false;
+            }
+        }
+
 
         //here we initialise these arrays to store the positions we'll be lerping to and from
         for (int i = 0; i < topBars.Length; i++)

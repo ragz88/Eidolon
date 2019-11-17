@@ -6,6 +6,8 @@ public class DeathTrigger : MonoBehaviour
 {
     public Transform spawnPoint;
 
+    public bool activateChelle = false;
+
     //public bool sceneChangerHeightMod;
     //public SceneChange sceneChanger;
     //public float yAdjustment = 0;
@@ -34,6 +36,7 @@ public class DeathTrigger : MonoBehaviour
             }
             */
             SceneChange.spawnPoint = new Vector3(spawnPoint.position.x, spawnPoint.position.y, other.transform.position.z);
+            SceneChange.activateChelle = true;
             other.gameObject.GetComponent<ClarenceMovement>().LoseLife();
             
         }

@@ -15788,7 +15788,7 @@ MonoBehaviour:
   - {fileID: 1125081049}
   - {fileID: 712926718}
   - {fileID: 479532923}
-  level: 1
+  level: 0
   scoreManager: {fileID: 291949907}
   scoreAdjustment: -0.02
   comboAdjustment: 1

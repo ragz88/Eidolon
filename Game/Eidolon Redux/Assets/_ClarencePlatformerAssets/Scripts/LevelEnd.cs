@@ -14,7 +14,7 @@ public class LevelEnd : MonoBehaviour
 
     bool clarencePresent = false;
 
-    public int menuScene;
+    public int menuScene = 1;
 
     private void Start()
     {
