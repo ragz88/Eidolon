@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: b7c226ee8c6697843bc6cb80561f3a36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -957248217461078214
+    second: LeftLook_0
+  - first:
+      213: 321547386704361845
+    second: LeftLook_1
+  - first:
+      213: -5447691209615122177
+    second: LeftLook_2
+  - first:
+      213: -2191969476463626108
+    second: LeftLook_3
+  - first:
+      213: 2215268129671898723
+    second: LeftLook_4
+  - first:
+      213: 3257406261907451054
+    second: LeftLook_5
+  - first:
+      213: -6514930895263254804
+    second: LeftLook_6
+  - first:
+      213: 985765580397917739
+    second: LeftLook_7
+  - first:
+      213: -94336871273338227
+    second: LeftLook_8
+  - first:
+      213: 4623141388387775977
+    second: LeftLook_9
+  - first:
+      213: -3489203065077252021
+    second: LeftLook_10
+  - first:
+      213: 8444330721686912306
+    second: LeftLook_11
+  - first:
+      213: -253399524531904026
+    second: LeftLook_12
+  - first:
+      213: -6440771103027735471
+    second: LeftLook_13
+  - first:
+      213: 2774901478391898701
+    second: LeftLook_14
+  - first:
+      213: -5498866009436820274
+    second: LeftLook_15
+  - first:
+      213: -8892111705976839072
+    second: LeftLook_16
+  - first:
+      213: -7287075759380456334
+    second: LeftLook_17
+  - first:
+      213: -5509076096146259666
+    second: LeftLook_18
+  - first:
+      213: 5200618563051700468
+    second: LeftLook_19
+  - first:
+      213: -2811460920642652167
+    second: LeftLook_20
+  - first:
+      213: -8649704559053796325
+    second: LeftLook_21
+  - first:
+      213: 6043986984944111684
+    second: LeftLook_22
+  - first:
+      213: 2170448947580841153
+    second: LeftLook_23
+  - first:
+      213: -6166748318584376952
+    second: LeftLook_24
+  - first:
+      213: 281567800908216135
+    second: LeftLook_25
+  - first:
+      213: -983026252923928828
+    second: LeftLook_26
+  - first:
+      213: -5961030380219917952
+    second: LeftLook_27
+  - first:
+      213: 7829002063953822853
+    second: LeftLook_28
+  - first:
+      213: 7475566619934431940
+    second: LeftLook_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeftLook_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d819a0afd6b87e84495367e47c93ffc3
+      internalID: -957248217461078214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17337a4c5447ca841b28b1d72e470e92
+      internalID: 321547386704361845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b947936ccd68ffa45ae411c3415996ad
+      internalID: -5447691209615122177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3a62c9c956fe2408d8fa235de71dfe
+      internalID: -2191969476463626108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_4
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61359556c0fa24ea948a42922d260e
+      internalID: 2215268129671898723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0730d8b4cb2b84096d10891d453164
+      internalID: 3257406261907451054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db38098ab5224ba43a4fb141b805cd57
+      internalID: -6514930895263254804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb4dce1ecb6dd74d88bae9d183dac4d
+      internalID: 985765580397917739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20420403264274884d1610a8c78dd0
+      internalID: -94336871273338227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_9
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb84697d25a84549a4cfd3e1ac7cb1f
+      internalID: 4623141388387775977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ed5ff4e8231ad49bb1c83e6b2c2901
+      internalID: -3489203065077252021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f4ad40b0fd5884396cf43b7e8e021d
+      internalID: 8444330721686912306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b24f386205c4404fa9bc13e919e51fb
+      internalID: -253399524531904026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_13
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dae931b9a414334d8fe2184ec034a7d
+      internalID: -6440771103027735471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_14
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a300a4d4d721749bb4c5d420cfe86c
+      internalID: 2774901478391898701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22839b29b19e98c4db7168f540bf6013
+      internalID: -5498866009436820274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bc642c4c2f4ca45bc793008d9e19cb
+      internalID: -8892111705976839072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_17
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501a7b05242a0e43aa9ed861c88016c
+      internalID: -7287075759380456334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac1197aa2725a4f93c2206bb1995a3
+      internalID: -5509076096146259666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_19
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad0e263409916742bebec00de98bf90
+      internalID: 5200618563051700468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b480cefbea6ef438cea9f138080805
+      internalID: -2811460920642652167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7bacf0123d3f042880a795c3551693
+      internalID: -8649704559053796325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e0c534d03f61b419339a0b7cb8b76c
+      internalID: 6043986984944111684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_23
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a3788fd55aa5d4190c73732dd7e999
+      internalID: 2170448947580841153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_24
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afea49202e86b04faacc2274c0da7f5
+      internalID: -6166748318584376952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79ae8659d75ae4fa49d4483103a8c0
+      internalID: 281567800908216135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b342b906732c44c927bdf5e345626a
+      internalID: -983026252923928828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_27
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b27cd78c0ecb488b8058145477826
+      internalID: -5961030380219917952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_28
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b95d848dfdd3b4a9896f7af5dd763a
+      internalID: 7829002063953822853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLook_29
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3c0722b5fccb449a34c4033b4b3fc2
+      internalID: 7475566619934431940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

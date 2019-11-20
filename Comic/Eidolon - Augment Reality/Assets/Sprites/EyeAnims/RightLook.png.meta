@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 59e0406d2e1892842952fe1fca26b403
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7461679020161863217
+    second: RightLook_0
+  - first:
+      213: 3611304198605060377
+    second: RightLook_1
+  - first:
+      213: 3428476800104259902
+    second: RightLook_2
+  - first:
+      213: -3075438285560424268
+    second: RightLook_3
+  - first:
+      213: -1065122432316405793
+    second: RightLook_4
+  - first:
+      213: 6540298703003447054
+    second: RightLook_5
+  - first:
+      213: -1315792426021615872
+    second: RightLook_6
+  - first:
+      213: -2139754271321853553
+    second: RightLook_7
+  - first:
+      213: -5294536797995493110
+    second: RightLook_8
+  - first:
+      213: 3121407536295754734
+    second: RightLook_9
+  - first:
+      213: 5717799608421038437
+    second: RightLook_10
+  - first:
+      213: 5271273585557551312
+    second: RightLook_11
+  - first:
+      213: -7936312418279119146
+    second: RightLook_12
+  - first:
+      213: -986437105886055059
+    second: RightLook_13
+  - first:
+      213: 1545919000483022065
+    second: RightLook_14
+  - first:
+      213: -8680135578719904696
+    second: RightLook_15
+  - first:
+      213: -3887732427990230402
+    second: RightLook_16
+  - first:
+      213: 1074922192619020137
+    second: RightLook_17
+  - first:
+      213: 5514356191497582059
+    second: RightLook_18
+  - first:
+      213: -3776239394022630664
+    second: RightLook_19
+  - first:
+      213: -6410206189359122456
+    second: RightLook_20
+  - first:
+      213: 6416635746552797466
+    second: RightLook_21
+  - first:
+      213: -4699976281833487020
+    second: RightLook_22
+  - first:
+      213: 475446788988000920
+    second: RightLook_23
+  - first:
+      213: 2254446375701615364
+    second: RightLook_24
+  - first:
+      213: -978881500857098908
+    second: RightLook_25
+  - first:
+      213: 7974556681690318807
+    second: RightLook_26
+  - first:
+      213: -8993492736460314031
+    second: RightLook_27
+  - first:
+      213: 5293798908932499006
+    second: RightLook_28
+  - first:
+      213: -4138239178109312218
+    second: RightLook_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RightLook_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450a0b52693a20d4ba4f961207deb04b
+      internalID: 7461679020161863217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbd00efc2c398f46b3177fc336f16b7
+      internalID: 3611304198605060377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1328e4cacf5c8164884f196268c019e7
+      internalID: 3428476800104259902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cd1047133ddaa49ab30b33a5c3cc6a
+      internalID: -3075438285560424268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_4
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a088eaa5154f8a40be8270e7d12442f
+      internalID: -1065122432316405793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4209c295d48824a8ddb9ae3ca27838
+      internalID: 6540298703003447054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b55a0a5e019e4885df729a8dd857e
+      internalID: -1315792426021615872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51b2d7997b7da4d9801173bccee271
+      internalID: -2139754271321853553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2637a30de9cf94b818ddb94b430700
+      internalID: -5294536797995493110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_9
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7830b512b34f2479f0bb0405a08cf5
+      internalID: 3121407536295754734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297113c88c705049a47bab3fc9cf557
+      internalID: 5717799608421038437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8559ad8c1a39bef48b0c4b5f27116eab
+      internalID: 5271273585557551312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d07a3397a27d145b4fc841d86bcefa
+      internalID: -7936312418279119146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_13
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3579f5d6a5051441a9283d928973e89
+      internalID: -986437105886055059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_14
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083a8d34608004e49bd088212ab8aab1
+      internalID: 1545919000483022065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97734cda183215f43997a290cee47317
+      internalID: -8680135578719904696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6987ec0e80c74aac4ba2c7ecd32ee
+      internalID: -3887732427990230402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_17
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f6cf950c8b00941bada12625c3d502
+      internalID: 1074922192619020137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa2f78803fe7b4a8c648adcfa418c9
+      internalID: 5514356191497582059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_19
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a6d109f1d192c468a312aa9c425e74
+      internalID: -3776239394022630664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01f012e75d59241b9fdfaa55f5c0dd
+      internalID: -6410206189359122456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a77c1cceda29c4cb7f72a7bf24ffe6
+      internalID: 6416635746552797466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1e7b22357257545963a99e79a5f58e
+      internalID: -4699976281833487020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_23
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9352433912075a941b98e68414a430fa
+      internalID: 475446788988000920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_24
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54015bfa69b3d488e96feaf9c0b846
+      internalID: 2254446375701615364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2358a1cc4c75e4ea2ac946a07fe51e
+      internalID: -978881500857098908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e87a78de1314f74ca0abd490c52de20
+      internalID: 7974556681690318807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_27
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1581ca26a06d6874c970a986b6e6b8aa
+      internalID: -8993492736460314031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_28
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504bb322b1eb5545b82dc7e2c438126
+      internalID: 5293798908932499006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightLook_29
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f99a3d763b7054eb479f331941d1db
+      internalID: -4138239178109312218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
