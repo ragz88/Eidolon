@@ -1,23 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonSceneManager : MonoBehaviour
 {
 
     public GameObject fadeOutObj;
     public FadeOut fadeOut;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Escape) && SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            LoadScene(1);
+        }
     }
 
     public void LoadScene(int nextScene)
