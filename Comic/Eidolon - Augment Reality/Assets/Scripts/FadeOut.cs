@@ -11,6 +11,10 @@ public class FadeOut : MonoBehaviour
     public float waitTime = 5;
     public float fadeSpeed;
 
+    public int sceneToLoad = 0;
+
+    public bool loadNext = true;
+
     float timer = 0;
 
     // Start is called before the first frame update
@@ -26,11 +30,18 @@ public class FadeOut : MonoBehaviour
         {
             if (fadeRend.color.a < 1)
             {
-                fadeRend.color = new Color(fadeRend.color.r, fadeRend.color.g, fadeRend.color.b, fadeRend.color.a - (fadeSpeed * Time.deltaTime));
+                fadeRend.color = new Color(fadeRend.color.r, fadeRend.color.g, fadeRend.color.b, fadeRend.color.a + (fadeSpeed * Time.deltaTime));
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                if (loadNext)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
+                else
+                {
+                    SceneManager.LoadScene(sceneToLoad);
+                }
             }
         }
         else

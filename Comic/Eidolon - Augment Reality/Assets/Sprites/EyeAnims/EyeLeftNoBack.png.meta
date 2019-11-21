@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: ad5b0d5bb6d23584f8ca63a1f0584363
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5266655860899790180
+    second: EyeLeftNoBack_0
+  - first:
+      213: -4138178068137380154
+    second: EyeLeftNoBack_1
+  - first:
+      213: -6146784160869156823
+    second: EyeLeftNoBack_2
+  - first:
+      213: -8936986827733609463
+    second: EyeLeftNoBack_3
+  - first:
+      213: -8946029657736776293
+    second: EyeLeftNoBack_4
+  - first:
+      213: 980486976161677973
+    second: EyeLeftNoBack_5
+  - first:
+      213: 5691375042981449159
+    second: EyeLeftNoBack_6
+  - first:
+      213: 620305498110541546
+    second: EyeLeftNoBack_7
+  - first:
+      213: -6400682683736798688
+    second: EyeLeftNoBack_8
+  - first:
+      213: -7207856082623791190
+    second: EyeLeftNoBack_9
+  - first:
+      213: -7961556095160942233
+    second: EyeLeftNoBack_10
+  - first:
+      213: 8494276489693615762
+    second: EyeLeftNoBack_11
+  - first:
+      213: -4143836257941657653
+    second: EyeLeftNoBack_12
+  - first:
+      213: 6980179791998523738
+    second: EyeLeftNoBack_13
+  - first:
+      213: 2699694454661177407
+    second: EyeLeftNoBack_14
+  - first:
+      213: -455688149971997421
+    second: EyeLeftNoBack_15
+  - first:
+      213: -4695736744302918993
+    second: EyeLeftNoBack_16
+  - first:
+      213: 5329375338517648769
+    second: EyeLeftNoBack_17
+  - first:
+      213: -6128849408201646669
+    second: EyeLeftNoBack_18
+  - first:
+      213: 3994102933073344253
+    second: EyeLeftNoBack_19
+  - first:
+      213: 6501296732148915867
+    second: EyeLeftNoBack_20
+  - first:
+      213: 1137265254789391048
+    second: EyeLeftNoBack_21
+  - first:
+      213: -3833590598963310403
+    second: EyeLeftNoBack_22
+  - first:
+      213: 373703999502008243
+    second: EyeLeftNoBack_23
+  - first:
+      213: -6724888369400725773
+    second: EyeLeftNoBack_24
+  - first:
+      213: 6574825766293871642
+    second: EyeLeftNoBack_25
+  - first:
+      213: -9025272667755815576
+    second: EyeLeftNoBack_26
+  - first:
+      213: 5864494046846934599
+    second: EyeLeftNoBack_27
+  - first:
+      213: -7069206100034179928
+    second: EyeLeftNoBack_28
+  - first:
+      213: -4944788670797605695
+    second: EyeLeftNoBack_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EyeLeftNoBack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca7d7acdab292945b0e03125121f884
+      internalID: 5266655860899790180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd2f1f4ada14845a68e5ee4a7181eb
+      internalID: -4138178068137380154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5433ce2d9568c24dbcc32ef63fe0f38
+      internalID: -6146784160869156823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852adfa03ae83df4483c7f8f84949158
+      internalID: -8936986827733609463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_4
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4dd5d0e05ef3b45a15daebc97ffe4a
+      internalID: -8946029657736776293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e04988025d2aa4aa4e16510460bb59
+      internalID: 980486976161677973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786d6d7bdc0b3f749a948bf62241af4a
+      internalID: 5691375042981449159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc2a075deed994e8e01c63ebab7df4
+      internalID: 620305498110541546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a89ed85e15cad45a0b16e42414b7e3
+      internalID: -6400682683736798688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_9
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a1963b10fb76449869a16e07db7506
+      internalID: -7207856082623791190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8bad7b0151ba745adfd8c85a7651fb
+      internalID: -7961556095160942233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7234f322492bb478b432f2d39f2e92
+      internalID: 8494276489693615762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770cc585d77706642b66aeb2290f75a8
+      internalID: -4143836257941657653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_13
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bec5bc81d7ebad40b1c9b8989cb5ff0
+      internalID: 6980179791998523738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_14
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a61cca2da42e4389f75c1508edbd6
+      internalID: 2699694454661177407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de26abf0e3fbff94a90cbddc7e654ca4
+      internalID: -455688149971997421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae0739d13dbb6941ba319d1cc87a881
+      internalID: -4695736744302918993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_17
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3c4f6ef5406a24690f5121b246c89b
+      internalID: 5329375338517648769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2426e2c7ae22442b4b76b52cbe033e
+      internalID: -6128849408201646669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_19
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe754910537ce1240bad84b05e19fb75
+      internalID: 3994102933073344253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734945fea63e6fb4caee1deb082a25dc
+      internalID: 6501296732148915867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833052f280191fe4d822fc0bf14bf7d2
+      internalID: 1137265254789391048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198f0dd2dda74cf46ad09586d9b51193
+      internalID: -3833590598963310403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_23
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5d0f62dfb8eee428860737eca2aad4
+      internalID: 373703999502008243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_24
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61ef27d388d9064da137cef102b66b8
+      internalID: -6724888369400725773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83d2a3c39ab7c246b774fc5862b2008
+      internalID: 6574825766293871642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac1bb3bb8cfd548887f40481eca0c7
+      internalID: -9025272667755815576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_27
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f00655044b37274c9f223ef40100cb1
+      internalID: 5864494046846934599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_28
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9401886ce1b62243be41155dcd9c794
+      internalID: -7069206100034179928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeLeftNoBack_29
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e99736e8bdfd994c84765f39083bc82
+      internalID: -4944788670797605695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

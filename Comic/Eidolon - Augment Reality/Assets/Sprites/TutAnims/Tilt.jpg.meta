@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: f0500ae01af9d9047a881e54d5610410
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1271560903036743284
+    second: Tilt_0
+  - first:
+      213: -4535492821801317424
+    second: Tilt_1
+  - first:
+      213: 9026154253676506044
+    second: Tilt_2
+  - first:
+      213: -246620817994221120
+    second: Tilt_3
+  - first:
+      213: 7688585171371471996
+    second: Tilt_4
+  - first:
+      213: -2388465993491394849
+    second: Tilt_5
+  - first:
+      213: -1417931476493067753
+    second: Tilt_6
+  - first:
+      213: 7456150507517604983
+    second: Tilt_7
+  - first:
+      213: 3213541688085513061
+    second: Tilt_8
+  - first:
+      213: 8981302826104521273
+    second: Tilt_9
+  - first:
+      213: 7227400605451689776
+    second: Tilt_10
+  - first:
+      213: 9082309035041959499
+    second: Tilt_11
+  - first:
+      213: -2460847370325087111
+    second: Tilt_12
+  - first:
+      213: 8311436750690643739
+    second: Tilt_13
+  - first:
+      213: 2063464993335693655
+    second: Tilt_14
+  - first:
+      213: -3171241681256933635
+    second: Tilt_15
+  - first:
+      213: 3352889832071702687
+    second: Tilt_16
+  - first:
+      213: -378783973378383478
+    second: Tilt_17
+  - first:
+      213: 3882864207729018542
+    second: Tilt_18
+  - first:
+      213: 2821524222148174668
+    second: Tilt_19
+  - first:
+      213: 1090095099232835134
+    second: Tilt_20
+  - first:
+      213: 6523084366199185358
+    second: Tilt_21
+  - first:
+      213: -1672666109289611259
+    second: Tilt_22
+  - first:
+      213: -1402635237116507735
+    second: Tilt_23
+  - first:
+      213: -5179783153112041319
+    second: Tilt_24
+  - first:
+      213: 5916906727925363751
+    second: Tilt_25
+  - first:
+      213: -3209024914132659915
+    second: Tilt_26
+  - first:
+      213: -590612033906460391
+    second: Tilt_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066ffbf59b93a4a4ab6c7732689a10cf
+      internalID: -1271560903036743284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5a51c3b4368264e9883a84262a1ed2
+      internalID: -4535492821801317424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_2
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5ce419b66a4f241946a35c524e5950
+      internalID: 9026154253676506044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_3
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f38aa3b69bb5f43841612f1b2836b4
+      internalID: -246620817994221120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_4
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ab92a9cd178f14ba0bc4cf10976080
+      internalID: 7688585171371471996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_5
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1616a0642efe3f5439ba6ce4b454e967
+      internalID: -2388465993491394849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_6
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1841
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa08684d6774324a9164d4ca130316b
+      internalID: -1417931476493067753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b3711df453b34893670199948d60d
+      internalID: 7456150507517604983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_8
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509c5aa19412d814d8723b0e7fb50563
+      internalID: 3213541688085513061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_9
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23acd8dbdbcbffe4993f8f7178e90160
+      internalID: 8981302826104521273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_10
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81002373d9ae7954a8f8904f1d361fe5
+      internalID: 7227400605451689776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_11
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595d67a942f5ffd48b99d0b5fb91eeaa
+      internalID: 9082309035041959499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_12
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bff96ea4f0a4848872bc5871c48543
+      internalID: -2460847370325087111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_13
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1228
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacd43278a0708b4eb3e90a0ab1c8256
+      internalID: 8311436750690643739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4f982fb9d8da64a9b4d32d1f5a5638
+      internalID: 2063464993335693655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_15
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbef529cb6791540948c1ee0b8b0150
+      internalID: -3171241681256933635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_16
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f845f43b796d534ba5e8187889c051e
+      internalID: 3352889832071702687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_17
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9040bc62ad737458a638b26222b73d
+      internalID: -378783973378383478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_18
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf0a2c5ba0ba84383aefc65c02d3e8
+      internalID: 3882864207729018542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_19
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a0f5dd012b0f24dbe464997ffcf477
+      internalID: 2821524222148174668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_20
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 615
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c276482664895834b9edc128c978cd60
+      internalID: 1090095099232835134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7207fdc506874eaeff9366ad20011
+      internalID: 6523084366199185358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_22
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9492669c5ea24792f53b40483374e
+      internalID: -1672666109289611259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_23
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c438ff8a5c9af6641a7bef779da529c4
+      internalID: -1402635237116507735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_24
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ce82944214a59459da37f1827a98d5
+      internalID: -5179783153112041319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_25
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be2ce037e705fa438dac653b1ec32d3
+      internalID: 5916906727925363751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_26
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e1df278a822a43b7d666e67cbe9c2
+      internalID: -3209024914132659915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilt_27
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2
+        width: 614
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc899058183bc046a4e4b06fbe5a0e2
+      internalID: -590612033906460391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 47481bbaa99a13a479fc9eef49cdab1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4805049286588629211
+    second: Jackarandas_0
+  - first:
+      213: -5204199766882969878
+    second: Jackarandas_1
+  - first:
+      213: -700193864759119494
+    second: Jackarandas_2
+  - first:
+      213: 1521877494896835522
+    second: Jackarandas_3
+  - first:
+      213: -2924966329825408053
+    second: Jackarandas_4
+  - first:
+      213: -7277544559144726718
+    second: Jackarandas_5
+  - first:
+      213: -8499860432334338787
+    second: Jackarandas_6
+  - first:
+      213: -6527437297013685678
+    second: Jackarandas_7
+  - first:
+      213: -4007237114104969804
+    second: Jackarandas_8
+  - first:
+      213: 3577135734932376693
+    second: Jackarandas_9
+  - first:
+      213: -8270425310560297882
+    second: Jackarandas_10
+  - first:
+      213: 9107889982141995347
+    second: Jackarandas_11
+  - first:
+      213: -4261348535937406631
+    second: Jackarandas_12
+  - first:
+      213: -1606612909857975837
+    second: Jackarandas_13
+  - first:
+      213: -3872114613224650372
+    second: Jackarandas_14
+  - first:
+      213: 2554632233581010224
+    second: Jackarandas_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jackarandas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f16dc213abaf34ba22bbe4161fc79e
+      internalID: 4805049286588629211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 536.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4ba441bc68c8f47ae67e1786aaca0c
+      internalID: -5204199766882969878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 536.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb3ab93120642640965e7a5241e2e9a
+      internalID: -700193864759119494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 536.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eaf1dc30851bd429fc9f7ab905195e
+      internalID: 1521877494896835522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b98a1f5eb31a14a8d685b44e3427c5
+      internalID: -2924966329825408053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 358.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516bad643754b9942ac0fc0115c1ddbc
+      internalID: -7277544559144726718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 358.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c763e02485bd04293194a9bbd648c2
+      internalID: -8499860432334338787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 358.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef275b2fee632d54092e5d91d21072bf
+      internalID: -6527437297013685678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fec1d67d876d4147b130604efec3399
+      internalID: -4007237114104969804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a412554e22e94d843b8432f17be4c490
+      internalID: 3577135734932376693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 180.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1312150ed1b26e54a96d673e058487bf
+      internalID: -8270425310560297882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 180.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7031c58b87e5fc46b4e7b4805cec681
+      internalID: 9107889982141995347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ef3dd1ba4443e44b3dded06ab988ce
+      internalID: -4261348535937406631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c0350b08822c34695da38e1a1150ce
+      internalID: -1606612909857975837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb634363547b8b4e9affb8445214443
+      internalID: -3872114613224650372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jackarandas_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2.25
+        width: 320
+        height: 178.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11571a72c744e7a40947c941f5ade7f1
+      internalID: 2554632233581010224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 5a58f803d94ebec47a05e215caf5d46c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1258564532637313336
+    second: EyeRightNoBack_0
+  - first:
+      213: -5038041272448717806
+    second: EyeRightNoBack_1
+  - first:
+      213: -7492908761580304215
+    second: EyeRightNoBack_2
+  - first:
+      213: 7737824481357833920
+    second: EyeRightNoBack_3
+  - first:
+      213: 2428412051780737451
+    second: EyeRightNoBack_4
+  - first:
+      213: -5673478662674783860
+    second: EyeRightNoBack_5
+  - first:
+      213: -2533064467744696700
+    second: EyeRightNoBack_6
+  - first:
+      213: -4462143656147925343
+    second: EyeRightNoBack_7
+  - first:
+      213: -4160169591104633268
+    second: EyeRightNoBack_8
+  - first:
+      213: -5609169672823736379
+    second: EyeRightNoBack_9
+  - first:
+      213: 7193665401891470412
+    second: EyeRightNoBack_10
+  - first:
+      213: 6125384751095472804
+    second: EyeRightNoBack_11
+  - first:
+      213: 7301011615128800376
+    second: EyeRightNoBack_12
+  - first:
+      213: 9064277951976525066
+    second: EyeRightNoBack_13
+  - first:
+      213: -7553360744874366654
+    second: EyeRightNoBack_14
+  - first:
+      213: -6132565636979328125
+    second: EyeRightNoBack_15
+  - first:
+      213: 9079207003924446653
+    second: EyeRightNoBack_16
+  - first:
+      213: -7563336517057053792
+    second: EyeRightNoBack_17
+  - first:
+      213: -1546952328602320106
+    second: EyeRightNoBack_18
+  - first:
+      213: 5047776300342306927
+    second: EyeRightNoBack_19
+  - first:
+      213: 6380071598216781430
+    second: EyeRightNoBack_20
+  - first:
+      213: -4913938001240850339
+    second: EyeRightNoBack_21
+  - first:
+      213: -2726909475256812190
+    second: EyeRightNoBack_22
+  - first:
+      213: 4302543969527450284
+    second: EyeRightNoBack_23
+  - first:
+      213: -6549290150851465307
+    second: EyeRightNoBack_24
+  - first:
+      213: 1484225577933588618
+    second: EyeRightNoBack_25
+  - first:
+      213: -106542382620565732
+    second: EyeRightNoBack_26
+  - first:
+      213: -8662802010816067154
+    second: EyeRightNoBack_27
+  - first:
+      213: 2554062478870501810
+    second: EyeRightNoBack_28
+  - first:
+      213: 7785293226204998048
+    second: EyeRightNoBack_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EyeRightNoBack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bcc9d99be58584daf526a03be25afe
+      internalID: -1258564532637313336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35c0242ab48d6d46961f0457f6d82bb
+      internalID: -5038041272448717806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06db3f1408ab444081dd5be2d50d6ff
+      internalID: -7492908761580304215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9401372cf2d4af498e352be3272d81d
+      internalID: 7737824481357833920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_4
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2766.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbea9422937faf48bc08182832046a3
+      internalID: 2428412051780737451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543f07c8056b99a4ca58ba8313c04d5d
+      internalID: -5673478662674783860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca3fb4c840207c41a0ff8487820dcb4
+      internalID: -2533064467744696700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d1dd929b453024e88f3dc2f7e747d6
+      internalID: -4462143656147925343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bce647fa9a55b34f891634c0b06881d
+      internalID: -4160169591104633268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_9
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2213.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26dbcbac3ba5794fbcfb1943004b746
+      internalID: -5609169672823736379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b9b6c8b0f5be4dbcb1877740e755f
+      internalID: 7193665401891470412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3e11c394caee74cb02121cf82eab53
+      internalID: 6125384751095472804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d08f0cf46b7a3409d477e879f443ae
+      internalID: 7301011615128800376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_13
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b656e5bdf4bd8b46a8ababdb03acb35
+      internalID: 9064277951976525066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_14
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1660.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035233130dd31942aa48fd7df6a01fa
+      internalID: -7553360744874366654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13fd9c9588b694b9d182e0b49f8b41
+      internalID: -6132565636979328125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f1a9b467d03b4f86f313f769878df
+      internalID: 9079207003924446653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_17
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3820e1eb4876cdc4cbdf9e620779f4ac
+      internalID: -7563336517057053792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde5bf551dff544496c87c5186927f4
+      internalID: -1546952328602320106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_19
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1107.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edd49306f359a94dbc833fb5c4f1f9a
+      internalID: 5047776300342306927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b0751f4a810bb46b079312f5a15b29
+      internalID: 6380071598216781430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85731ab13e1e304db11f3f71fb8145f
+      internalID: -4913938001240850339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d75a5ebc5108164994529ad85002f45
+      internalID: -2726909475256812190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_23
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c410df15dc9b94198f52dfc73c866c
+      internalID: 4302543969527450284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_24
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 554.6667
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73835b60d3b214fb7b9ecc087e3822
+      internalID: -6549290150851465307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c8d66f3b00721448addb7973966935
+      internalID: 1484225577933588618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193a7c84262ba04d8f3983ff4204beb
+      internalID: -106542382620565732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_27
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc0d83584dfbd245abfc290bf68a62e
+      internalID: -8662802010816067154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_28
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c78644848331145b9bb0680b7645d7
+      internalID: 2554062478870501810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeRightNoBack_29
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1.666687
+        width: 552
+        height: 553.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ae54cc47bcc4b4ca9b9b6adc295775
+      internalID: 7785293226204998048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

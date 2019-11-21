@@ -48,7 +48,7 @@ public class SpeechBubbleParallaxTilt : MonoBehaviour
         float currentXAngle = Input.acceleration.x;
         float currentYAngle = Input.acceleration.y;
 
-        print(currentYAngle);
+        //print(currentYAngle);
 
         if (!lockX && !lockY)
         {
@@ -82,12 +82,12 @@ public class SpeechBubbleParallaxTilt : MonoBehaviour
 
         if (invertX)
         {
-            currentXAngle *= -1;
+            currentXValue *= -1;
             
         }
         if (invertY)
         {
-            currentYAngle += -1;
+            currentYValue *= -1;
         }
 
         Vector3 newPos = initPos + new Vector3(currentXValue * xRadius, 0 , currentYValue * yRadius);

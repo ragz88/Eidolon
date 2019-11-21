@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7e6fca13b19f4a346ba6fb1170217457
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pages Grotesque Demo
+  fontNames:
+  - Pages Grotesque Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 79c0af823d8932348bc2edc0060f21af, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
