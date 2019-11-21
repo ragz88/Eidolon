@@ -78,7 +78,7 @@ public class CameraFocusController : MonoBehaviour
             if (TapCount == 1)
             {
                 FocusCam();
-                print("focus");
+                //print("focus");
             }
 
             TapCount = 0;
@@ -160,7 +160,7 @@ public class CameraFocusController : MonoBehaviour
 
     void SwitchCamType()
     {
-        print("switch");
+        //print("switch");
         if (macroFocus)
         {
             macroFocus = false;

@@ -61,8 +61,8 @@ public class Vector3RangerTiltResponse: MonoBehaviour
 
         }
 
-        print("X: " + currentXAngle);
-        print("Y: " + currentYAngle);
+        //print("X: " + currentXAngle);
+        //print("Y: " + currentYAngle);
 
         if ((currentXAngle*currentXAngle) > (currentYAngle*currentYAngle))    // compares magnitude of angle without using any sqrt functions
         {

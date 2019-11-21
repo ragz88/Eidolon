@@ -48,7 +48,7 @@ public class SpeechBubbleParallaxTilt : MonoBehaviour
         float currentXAngle = Input.acceleration.x;
         float currentYAngle = Input.acceleration.y;
 
-        //print(currentYAngle);
+        print(currentYAngle);
 
         if (!lockX && !lockY)
         {

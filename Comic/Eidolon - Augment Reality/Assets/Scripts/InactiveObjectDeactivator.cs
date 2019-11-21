@@ -21,6 +21,8 @@ public class InactiveObjectDeactivator : MonoBehaviour
 
     public float fadeSpeed = 1f;
 
+    public Animator[] anims;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,11 @@ public class InactiveObjectDeactivator : MonoBehaviour
         for (int i = 0; i < objectsToActivate.Length; i++)
         {
             objectsToActivate[i].SetActive(false);
+        }
+
+        for (int i = 0; i < anims.Length; i++)
+        {
+            anims[i].enabled = false;
         }
 
         Vibration.Cancel();
@@ -64,6 +71,12 @@ public class InactiveObjectDeactivator : MonoBehaviour
             {
                 objectsToActivate[i].SetActive(true);
             }
+
+            for (int i = 0; i < anims.Length; i++)
+            {
+                anims[i].enabled = true;
+                anims[i].Play("Entry");
+            }
         }
         else if (!rend.enabled && rendActive)
         {
@@ -73,6 +86,11 @@ public class InactiveObjectDeactivator : MonoBehaviour
             for (int i = 0; i < objectsToActivate.Length; i++)
             {
                 objectsToActivate[i].SetActive(false);
+            }
+
+            for (int i = 0; i < anims.Length; i++)
+            {
+                anims[i].enabled = false;
             }
 
             // set the renderers to transparrent
