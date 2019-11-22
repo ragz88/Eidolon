@@ -13,6 +13,9 @@ namespace ThirdPersonEngine.Runtime
         float currentTime = 0;
         float enteranceSpeed = 0;
 
+        AudioSource source;
+        bool audioPlayed = false;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -41,6 +44,21 @@ namespace ThirdPersonEngine.Runtime
             if (controller.zoneMovementSpeed != zoneSpeed)
             {
                 lerp = true;
+            }
+
+            if (other.CompareTag("Player"))
+            {
+                if (!audioPlayed)
+                {
+                    audioPlayed = true;
+                    if (source != null)
+                    {
+                        if (source.clip != null)
+                        {
+                            source.Play();
+                        }
+                    }
+                }
             }
         }
 
