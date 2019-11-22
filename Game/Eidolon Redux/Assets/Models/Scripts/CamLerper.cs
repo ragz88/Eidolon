@@ -92,15 +92,15 @@ public class CamLerper : MonoBehaviour
                     switch (camState)
                     {
                         case CamState.Machine1:
-                            SceneManager.LoadScene(2);
+                            SceneManager.LoadScene(1);
                             break;
 
                         case CamState.Machine2:
-                            SceneManager.LoadScene(8);
+                            SceneManager.LoadScene(7);
                             break;
 
                         case CamState.Machine3:
-                            SceneManager.LoadScene(11);
+                            SceneManager.LoadScene(10);
                             break;
 
                     }
