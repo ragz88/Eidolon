@@ -8,6 +8,7 @@ public class SceneChangeSpawner : MonoBehaviour
 {
 
     public Button unlockableButton;             // unlocks button after standard mode is complete
+    public Text unlockButtonText;
     public GameObject sceneChangerPrefab;       // spawns in a SceneActivator if none is present
 
     SceneActivator sceneChanger;
@@ -29,6 +30,7 @@ public class SceneChangeSpawner : MonoBehaviour
         if (sceneChanger.finishedStandard)
         {
             unlockableButton.interactable = true;       // unlocks expert mode
+            unlockButtonText.color = Color.white;
         }
         
     }
