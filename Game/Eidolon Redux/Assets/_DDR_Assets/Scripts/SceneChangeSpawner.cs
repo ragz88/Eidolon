@@ -18,6 +18,8 @@ public class SceneChangeSpawner : MonoBehaviour
     {
         GameObject tempSceneChanger = GameObject.Find("SceneChanger(Clone)");
 
+        print(tempSceneChanger.gameObject.name);
+
         if (tempSceneChanger == null)
         {
             sceneChanger = Instantiate(sceneChangerPrefab).GetComponent<SceneActivator>();
@@ -27,7 +29,7 @@ public class SceneChangeSpawner : MonoBehaviour
             sceneChanger = tempSceneChanger.GetComponent<SceneActivator>();
         }
 
-        if (sceneChanger.finishedStandard)
+        if (SceneActivator.finishedStandard)
         {
             unlockableButton.interactable = true;       // unlocks expert mode
             unlockButtonText.color = Color.white;
@@ -43,12 +45,28 @@ public class SceneChangeSpawner : MonoBehaviour
 
     public void StartStandardGame()
     {
-        sceneChanger.setDifficultyStandard();
+        if (sceneChanger != null)
+        {
+            sceneChanger.setDifficultyStandard();
+        }
+        else
+        {
+            sceneChanger = Instantiate(sceneChangerPrefab).GetComponent<SceneActivator>();
+            sceneChanger.setDifficultyStandard();
+        }
     }
 
     public void StartExpertGame()
     {
-        sceneChanger.setDifficultyExpert();
+        if (sceneChanger != null)
+        {
+            sceneChanger.setDifficultyExpert();
+        }
+        else
+        {
+            sceneChanger = Instantiate(sceneChangerPrefab).GetComponent<SceneActivator>();
+            sceneChanger.setDifficultyExpert();
+        }
     }
 
 
@@ -56,6 +74,6 @@ public class SceneChangeSpawner : MonoBehaviour
     {
         Destroy(sceneChanger);              // prevents this baby from persisting in memory (later this will only quit back to the main game)
         //Application.Quit();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

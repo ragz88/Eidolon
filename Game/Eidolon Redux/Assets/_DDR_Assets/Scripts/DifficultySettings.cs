@@ -57,7 +57,7 @@ public class DifficultySettings : MonoBehaviour
         {
             SceneActivator sceneActivator = sceneActObj.GetComponent<SceneActivator>();
             level = sceneActivator.difficulty;
-            sceneActivator.finishedStandard = true;
+            SceneActivator.finishedStandard = true;
             
         }
 

@@ -23,7 +23,7 @@ public class LongFallingSpriteArrow : MonoBehaviour
 
     bool previousFrameHit = false;
     bool secondPreviousFrameHit = false;
-    bool thirdPreviousFrameHit = false;
+    //bool thirdPreviousFrameHit = false;
 
     public bool pressedBefore = false;
 
@@ -62,7 +62,7 @@ public class LongFallingSpriteArrow : MonoBehaviour
                     pressedBefore = true;
                     previousFrameHit = true;
                     secondPreviousFrameHit = true;
-                    thirdPreviousFrameHit = true;
+                    //thirdPreviousFrameHit = true;
 
                     grindParts.SetActive(true);
                 }
@@ -78,10 +78,10 @@ public class LongFallingSpriteArrow : MonoBehaviour
                     {
                         secondPreviousFrameHit = false;
                     }
-                    else if (thirdPreviousFrameHit)
-                    {
-                        thirdPreviousFrameHit = true;
-                    }
+                    //else if (thirdPreviousFrameHit)
+                    //{
+                    //    thirdPreviousFrameHit = true;
+                    //}
                     else if (pressedBefore)
                     {
                         shattered = true;

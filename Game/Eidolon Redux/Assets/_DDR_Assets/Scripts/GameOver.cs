@@ -36,7 +36,7 @@ public class GameOver : MonoBehaviour
 
         SceneActivator sceneChanger = GameObject.Find("SceneChanger(Clone)").GetComponent<SceneActivator>();
 
-        sceneChanger.finishedStandard = true;         // unlocks expert mode 
+        SceneActivator.finishedStandard = true;         // unlocks expert mode 
 
     }
 

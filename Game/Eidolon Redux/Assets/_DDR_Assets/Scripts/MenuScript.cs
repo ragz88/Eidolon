@@ -24,6 +24,8 @@ public class MenuScript : MonoBehaviour
         {
             butInitPos[i] = buttons[i].transform.position;
         }
+
+        buttons[0].Select();
     }
 
     private void Update()
@@ -42,6 +44,11 @@ public class MenuScript : MonoBehaviour
                    butInitPos[i], moveSpeed * Time.deltaTime);
                 pics[i].color = Color.Lerp(pics[i].color, new Color(pics[i].color.r, pics[i].color.g, pics[i].color.b, 0), moveSpeed * Time.deltaTime);
             }
+        }
+
+        if (Input.GetButtonDown("Submit"))
+        {
+            EventSystem.current.currentSelectedGameObject.GetComponent<Button>().onClick.Invoke();
         }
     }
 

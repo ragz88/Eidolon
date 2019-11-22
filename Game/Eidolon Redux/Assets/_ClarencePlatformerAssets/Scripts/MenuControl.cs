@@ -24,6 +24,6 @@ public class MenuControl : MonoBehaviour
 
     public void QuitGame()
     {
-        SceneManager.LoadScene(0);          // Make sure this is Woods scene. Name isn't working
+        SceneManager.LoadScene(1);          // Make sure this is Woods scene. Name isn't working
     }
 }

@@ -10714,7 +10714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.73, y: 3.06}
+  m_AnchoredPosition: {x: 6.1899996, y: 2.77}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378128828
@@ -10738,7 +10738,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 883e69ee11adaf945a279c859b03beb2, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
@@ -26955,7 +26955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.85, y: 2.71}
+  m_AnchoredPosition: {x: -1.06, y: 1.59}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186227456
@@ -26979,9 +26979,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: bfd6a2bfe51c7fb4cbfa6ef4aea2eaba, type: 3}
     m_FontSize: 60
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 60
@@ -33583,7 +33583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.73, y: 3.9600003}
+  m_AnchoredPosition: {x: 6.19, y: 3.67}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611180166
@@ -33607,7 +33607,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 883e69ee11adaf945a279c859b03beb2, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
@@ -50228,11 +50228,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7556246400411127843, guid: 18c69b0f8eb50d34e8741e1f9a43ce1c,
-        type: 3}
-      propertyPath: fallSpeed
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7556246400619753156, guid: 18c69b0f8eb50d34e8741e1f9a43ce1c,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -50247,6 +50242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556246400411127843, guid: 18c69b0f8eb50d34e8741e1f9a43ce1c,
+        type: 3}
+      propertyPath: fallSpeed
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c69b0f8eb50d34e8741e1f9a43ce1c, type: 3}
@@ -50317,15 +50317,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5104454108476744938, guid: 7f52cc9bbb236754a857e4ecbe2be2f3,
-        type: 3}
-      propertyPath: fallSpeed
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5104454108268321293, guid: 7f52cc9bbb236754a857e4ecbe2be2f3,
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.34138227
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104454108476744938, guid: 7f52cc9bbb236754a857e4ecbe2be2f3,
+        type: 3}
+      propertyPath: fallSpeed
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f52cc9bbb236754a857e4ecbe2be2f3, type: 3}

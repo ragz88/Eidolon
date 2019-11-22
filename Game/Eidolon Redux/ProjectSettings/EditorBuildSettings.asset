@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0c41ae7d2ef6d4245bf177deaab4617d
+  - enabled: 1
     path: Assets/Scenes/Final Woods.unity
     guid: a7b3f1d3bb31539439c5537844287f55
   - enabled: 1

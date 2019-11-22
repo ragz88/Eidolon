@@ -8,7 +8,7 @@ public class SceneActivator : MonoBehaviour
 {
     public DifficultySettings.DifficultyLevel difficulty;
 
-    public bool finishedStandard = false;        // this is used to lock the expert level until later
+    public static bool finishedStandard = false;        // this is used to lock the expert level until later
     
 
     private void Start()
