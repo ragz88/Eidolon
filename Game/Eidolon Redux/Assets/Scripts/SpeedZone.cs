@@ -20,6 +20,7 @@ namespace ThirdPersonEngine.Runtime
         void Start()
         {
             controller = GameObject.FindObjectOfType<TPController>();
+            source = GetComponent<AudioSource>();
         }
 
         // Update is called once per frame
