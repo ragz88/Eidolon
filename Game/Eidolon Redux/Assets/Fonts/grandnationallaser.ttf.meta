@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3f552039fb27c104a915046df6d014d3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Grand National Laser
+  fontNames:
+  - Grand National Laser
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 197361b466cc94645a5c1abe9ffe3607, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

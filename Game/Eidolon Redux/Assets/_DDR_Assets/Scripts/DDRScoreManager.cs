@@ -66,6 +66,8 @@ public class DDRScoreManager : MonoBehaviour
 
 
     int score = 0;                   // stores the score of single DDR game
+    public static int yourScore = 0; // used to display user's score later  
+    public static int posInScoreList = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +76,7 @@ public class DDRScoreManager : MonoBehaviour
 
         standardColour = comboBar.color;
         initBarScale = comboBar.transform.localScale;
+        //yourScore = 0;
     }
 
     private void Update()
@@ -85,6 +88,11 @@ public class DDRScoreManager : MonoBehaviour
             {
                 lerpBarBack = false;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            ResetHighScores();
         }
     }
 
@@ -296,7 +304,54 @@ public class DDRScoreManager : MonoBehaviour
 
     public void StoreHighScore()
     {
+        if (PlayerPrefs.GetInt("HighScore1", 8047) <= yourScore)
+        {
+            PlayerPrefs.SetInt("HighScore5", PlayerPrefs.GetInt("HighScore4", 0));
+            PlayerPrefs.SetInt("HighScore4", PlayerPrefs.GetInt("HighScore3", 0));
+            PlayerPrefs.SetInt("HighScore3", PlayerPrefs.GetInt("HighScore2", 0));
+            PlayerPrefs.SetInt("HighScore2", PlayerPrefs.GetInt("HighScore1", 0));
+            PlayerPrefs.SetInt("HighScore1", yourScore);
+            posInScoreList = 1;
+        }
+        else if (PlayerPrefs.GetInt("HighScore2", 0) <= yourScore)
+        {
+            PlayerPrefs.SetInt("HighScore5", PlayerPrefs.GetInt("HighScore4", 0));
+            PlayerPrefs.SetInt("HighScore4", PlayerPrefs.GetInt("HighScore3", 0));
+            PlayerPrefs.SetInt("HighScore3", PlayerPrefs.GetInt("HighScore2", 0));
+            PlayerPrefs.SetInt("HighScore2",  yourScore);
+            posInScoreList = 2;
+        }
+        else if (PlayerPrefs.GetInt("HighScore3", 0) <= yourScore)
+        {
+            PlayerPrefs.SetInt("HighScore5", PlayerPrefs.GetInt("HighScore4", 0));
+            PlayerPrefs.SetInt("HighScore4", PlayerPrefs.GetInt("HighScore3", 0));
+            PlayerPrefs.SetInt("HighScore3",  yourScore);
+            posInScoreList = 3;
+        }
+        else if (PlayerPrefs.GetInt("HighScore4", 0) <= yourScore)
+        {
+            PlayerPrefs.SetInt("HighScore5", PlayerPrefs.GetInt("HighScore4", 0));
+            PlayerPrefs.SetInt("HighScore4",  yourScore);
+            posInScoreList = 4;
+        }
+        else if (PlayerPrefs.GetInt("HighScore5", 0) <= yourScore)
+        {
+            PlayerPrefs.SetInt("HighScore5", yourScore);
+            posInScoreList = 5;
+        }
+        else
+        {
+            posInScoreList = 0;
+        }
+    }
 
+    void ResetHighScores()
+    {
+        PlayerPrefs.SetInt("HighScore5", 0);
+        PlayerPrefs.SetInt("HighScore4", 0);
+        PlayerPrefs.SetInt("HighScore3", 0);
+        PlayerPrefs.SetInt("HighScore2", 0);
+        PlayerPrefs.SetInt("HighScore1", 8047);
     }
 
 }

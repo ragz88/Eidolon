@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8d4a0ad7601121e47973ed52bd2a1b22
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Grand National Italic
+  fontNames:
+  - Grand National Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 71bc4f8a093346f4a80061dd9f29d893, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

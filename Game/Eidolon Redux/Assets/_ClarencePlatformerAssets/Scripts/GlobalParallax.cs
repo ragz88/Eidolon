@@ -34,10 +34,11 @@ public class GlobalParallax : MonoBehaviour
                 parallaxAmounts[i] = layers[i].position.z;
             }
         }
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         for (int i = 0; i < layers.Length; i++)
         {

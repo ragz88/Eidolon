@@ -18,6 +18,24 @@ public class GameOver : MonoBehaviour
     public GameObject[] enterNameObjects;
     public GameObject[] highScoreObjects;
 
+    public Text score1;
+    public Text score2;
+    public Text score3;
+    public Text score4;
+    public Text score5;
+
+    public Text yourScoreText;
+
+    public Transform highlighter;
+
+    public float posY0 = 0;
+    public float posY1 = 0;
+    public float posY2 = 0;
+    public float posY3 = 0;
+    public float posY4 = 0;
+    public float posY5 = 0;
+
+
 
     float timer = 0;
     float initUnderlineX;
@@ -72,6 +90,38 @@ public class GameOver : MonoBehaviour
             {
                 highScoreObjects[i].SetActive(true);
             }
+
+            score1.text = PlayerPrefs.GetInt("HighScore1", 8047).ToString();
+            score2.text = PlayerPrefs.GetInt("HighScore2", 0).ToString();
+            score3.text = PlayerPrefs.GetInt("HighScore3", 0).ToString();
+            score4.text = PlayerPrefs.GetInt("HighScore4", 0).ToString();
+            score5.text = PlayerPrefs.GetInt("HighScore5", 0).ToString();
+
+            yourScoreText.text = DDRScoreManager.yourScore.ToString();
+
+            switch(DDRScoreManager.posInScoreList)
+            {
+                case 0:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY0, highlighter.localPosition.z);
+                    break;
+                case 1:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY1, highlighter.localPosition.z);
+                    break;
+                case 2:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY2, highlighter.localPosition.z);
+                    break;
+                case 3:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY3, highlighter.localPosition.z);
+                    break;
+                case 4:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY4, highlighter.localPosition.z);
+                    break;
+                case 5:
+                    highlighter.localPosition = new Vector3(highlighter.localPosition.x, posY5, highlighter.localPosition.z);
+                    break;
+            }
+
+
         }
 
         timer += Time.deltaTime;

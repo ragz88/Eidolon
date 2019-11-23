@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d9d4d450397bbbc4ea016f504c8b67b2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Grand National
+  fontNames:
+  - Grand National
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 87cc90bb82ab3224b94aa74f42b48333, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

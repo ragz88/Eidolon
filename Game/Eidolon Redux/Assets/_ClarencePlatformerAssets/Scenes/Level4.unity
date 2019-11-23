@@ -1544,6 +1544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &73170816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1903,6 +1904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &93118600
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3618,6 +3620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &196961885
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9335,6 +9338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &252559633
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10031,6 +10035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &278173912
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10706,6 +10711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &322461685
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22610,6 +22616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &494726981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24008,6 +24015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &553177419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25270,6 +25278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &625176935
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25828,6 +25837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &673648828
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26964,6 +26974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &745988038
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27188,6 +27199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &751427003
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32282,7 +32294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759317989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 4.57, z: 0}
+  m_LocalPosition: {x: -0.08, y: 3.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1722252431}
@@ -32834,6 +32846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &796942467
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33239,6 +33252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &846751420
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -38817,6 +38831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &918339605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40373,6 +40388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40386,6 +40402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40399,6 +40416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40412,6 +40430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40425,6 +40444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40438,6 +40458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40451,6 +40472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40464,6 +40486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40477,6 +40500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!114 &974619477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40490,6 +40514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!4 &974619478 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1303964254, guid: a66b871dbb7557c46a53e659a69e29a3,
@@ -40641,6 +40666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &979653107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40774,6 +40800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &980414046
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41240,6 +41267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1022495123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41372,6 +41400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1024547101
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -41665,6 +41694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1042273837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -44833,11 +44863,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextArea (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_Text
@@ -44988,10 +45013,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.04
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
-      propertyPath: m_Size.x
-      value: 1.9
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873954, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -45002,6 +45027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6, type: 3}
@@ -45114,6 +45144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1205625134
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45353,6 +45384,7 @@ MonoBehaviour:
   - {fileID: 1305075824}
   - {fileID: 1070174365}
   - {fileID: 661528970}
+  chelleControl: {fileID: 0}
 --- !u!1 &1228602011
 GameObject:
   m_ObjectHideFlags: 0
@@ -45862,6 +45894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1252894384
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -57098,6 +57131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57111,6 +57145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57124,6 +57159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57137,6 +57173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57150,6 +57187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57163,6 +57201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57176,6 +57215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57189,6 +57229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57202,6 +57243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!114 &1332656653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57215,6 +57257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!4 &1332656658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 525944083, guid: a66b871dbb7557c46a53e659a69e29a3,
@@ -57360,6 +57403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1354570953
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -57525,6 +57569,272 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1367763709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5672064496263572964, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Name
+      value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496263572960, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497549922869, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.67133105
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0.67133105
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064497432965245, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353181, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353181, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353181, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353179, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 883e69ee11adaf945a279c859b03beb2,
+        type: 3}
+    - target: {fileID: 5672064496605353179, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353179, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496605353179, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5896226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.67133105
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0.67133105
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496478549422, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958366, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958366, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958366, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958364, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 883e69ee11adaf945a279c859b03beb2,
+        type: 3}
+    - target: {fileID: 5672064496253958364, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958364, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5672064496253958364, guid: 0c660acc161cd824e916d925a59a9a6d,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5896226
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c660acc161cd824e916d925a59a9a6d, type: 3}
 --- !u!1 &1371242227
 GameObject:
   m_ObjectHideFlags: 0
@@ -57573,6 +57883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1371242230
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -60057,6 +60368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1491282838
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -60269,6 +60581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1508840063
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -60672,6 +60985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1564129917
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -60804,6 +61118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1569082364
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -68540,6 +68855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1746367983
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -68944,6 +69260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1766214866
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -69592,7 +69909,7 @@ Rigidbody2D:
   m_AngularDrag: 1
   m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 02d8384dc4b654f4ebed01b6fe6e33b9, type: 2}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -70053,6 +70370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1861345498
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -73245,6 +73563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1931718831
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -73377,6 +73696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1932500398
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -73760,6 +74080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &1952062846
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -74122,6 +74443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1976704697
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -74334,6 +74656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1979839534
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -74466,6 +74789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &1986228728
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -74762,6 +75086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &2010860167
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -74894,6 +75219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &2011831874
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -75026,6 +75352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &2027148363
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -75477,11 +75804,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextArea (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_Text
@@ -75637,10 +75959,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
-      propertyPath: m_Size.x
-      value: 5
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873954, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -75651,6 +75973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6, type: 3}
@@ -76315,6 +76642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 565772929}
+  activateChelle: 0
 --- !u!58 &2085302108
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -77051,6 +77379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 974619456}
+  activateChelle: 0
 --- !u!58 &2138577954
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -77239,11 +77568,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextArea
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873956, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
       propertyPath: m_Text
@@ -77394,15 +77718,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+    - target: {fileID: 6048766767471207018, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
-      propertyPath: m_Size.x
-      value: 2.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 1.91
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6048766767463873954, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
         type: 3}
@@ -77413,6 +77732,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048766766848312520, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 1.91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6535be206d3cbfd4f8eb1e4ae05c19d6, type: 3}

@@ -18,8 +18,7 @@ public class SceneChangeSpawner : MonoBehaviour
     {
         GameObject tempSceneChanger = GameObject.Find("SceneChanger(Clone)");
 
-        print(tempSceneChanger.gameObject.name);
-
+        
         if (tempSceneChanger == null)
         {
             sceneChanger = Instantiate(sceneChangerPrefab).GetComponent<SceneActivator>();
